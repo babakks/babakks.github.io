@@ -6,7 +6,7 @@ description: >-
 github_username: babakks
 twitter_username: babakks0
 baseurl: ""
-url: "https://babakks.github.io"
+url: "babakks.github.io"
 disqus:
   shortname: babakks
 theme: minima
