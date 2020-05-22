@@ -18,3 +18,4 @@ plugins:
 
 include:
   - favicon.ico
+  - _includes/disqus_comments.html
