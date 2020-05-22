@@ -5,8 +5,10 @@ description: >-
   Here, I'll put things I find interesting or good to know.
 baseurl: ""
 url: "babakks.github.io"
-
 github_username: babakks
+twitter_username: babakks0
+disqus:
+  shortname: babakks
 
 theme: minima
 plugins:
