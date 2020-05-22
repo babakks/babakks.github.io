@@ -10,6 +10,12 @@
       "problemMatcher": []
     },
     {
+      "label": "serve (production)",
+      "type": "shell",
+      "command": "JEKYLL_ENV=production bundler exec jekyll serve",
+      "problemMatcher": []
+    },
+    {
       "label": "build",
       "type": "shell",
       "command": "bundler exec jekyll build",
