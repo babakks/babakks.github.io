@@ -3,18 +3,16 @@ email: babak.k.shandiz@gmail.com
 description: >-
   ✍️ Welcome! This is my professional blog on software development. 
   Here, I'll put things I find interesting or good to know.
-disqus:
-  shortname: babakks
 github_username: babakks
 twitter_username: babakks0
-
 baseurl: ""
-url: babakks.github.io
+url: https://babakks.github.io
+disqus:
+  shortname: babakks
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
 include:
   - favicon.ico
