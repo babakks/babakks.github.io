@@ -4,6 +4,7 @@ title: "Emojis for Better Git Commit Messages"
 date: 2020-05-21 12:00:00 +0430
 categories: jekyll emoji git
 comments: true
+published: false
 ---
 
 I have to confess that I'm madly in love with emojis. They're cute, little digital beings that convey your emotions or
