@@ -102,7 +102,7 @@ This is my list:
 |----------|-------------|
 | 🐛`:bug:` 🔨`:hammer:` 🔧`:wrench:` 🗜`:clamp:` | correct, fix, bugfix |
 | 🐚`:shell:` 👐`:open_hands:` 📦`:package:` 🎁`:gift:` 🗳`:ballot_box:` 🗃`:card_file_box:` 📥`:inbox_tray:` 📤`:outbox_tray:` | wrap, hold, cover, shell, safe, box, contain |
-| 🎭`:performing_arts:` 🤝`:handshake:` 📎`:paperclip:` 🖇`:paperclips:` 🔗`:link:` 🔀`:twisted_rightwards_arrows:`  🔃`:arrows_clockwise:` 🔄`:arrows_counterclockwise:` 👥`:busts_in_silhouette:` | merge, mix, attach, convolve, append, prepend, unify, combine, distill, handshake |
+| 🎭`:performing_arts:` 🤝`:handshake:` 🗜`:clamp:`  📎`:paperclip:` 🖇`:paperclips:` 🔗`:link:` 🔀`:twisted_rightwards_arrows:`  🔃`:arrows_clockwise:` 🔄`:arrows_counterclockwise:` 👥`:busts_in_silhouette:` | merge, mix, attach, convolve, append, prepend, unify, combine, distill, handshake |
 | 🔥`:fire:` 🔫`:gun:` 💣`:bomb:` ⚰️`:coffin:` ☠️`:skull_and_crossbones:` 💀`:skull:` ✝️`:latin_cross:` ❌`:x:` ❎`:negative_squared_cross_mark:` ✖️`:heavy_multiplication_x:` 📤`:outbox_tray:` ✂️`:scissors:` 🔪`:knife:` ⚔️`:crossed_swords:` 🗃`:card_file_box:` | remove, delete, drop, cancel, exclude, archive |
 | 📶`:signal_strength:` 📈`:chart_with_upwards_trend:` 📉`:chart_with_downwards_trend:` ↕️`:arrow_up_down:` ⬆️`:arrow_up:` ⬇️`:arrow_down:` ⬆️`:arrow_up:` 🍽`:plate_with_cutlery:` 🔢`:1234:` | order, sort, arrange, reorder |
 | 🔨`:hammer:` 🔧`:wrench:` 🎖`:medal_military:` ✨`:sparkles:` 🥇`:1st_place_medal:` 🎨`:art:` 🖌`:paintbrush:` 💄`:lipstick:` 💅`:nail_care:` 👠`:high_heel:` 🌈`:rainbow:` 🐦`:bird:` | improve, enhance, upgrade, refresh, beauty, embellish, cosmetics |
@@ -150,6 +150,7 @@ This is my list:
 
 
 
+🚧 temporary
 
 
 download
