@@ -1,14 +1,12 @@
 title: Babak K. Shandiz's Blog
 email: babak.k.shandiz@gmail.com
-description: >-
-  ✍️ Welcome! This is my professional blog on software development. 
-  Here, I'll put things I find interesting or good to know.
+description: |
+  ✍️ Welcome! This is my professional blog on software development. Here, I'll put things I find interesting or good to know.
 github_username: babakks
 twitter_username: babakks0
-baseurl: ""
+author: babakks
 url: "https://babakks.github.io"
-disqus:
-  shortname: babakks
+baseurl: ""
 theme: minima
 show_excerpts: true
 plugins:
@@ -17,3 +15,6 @@ plugins:
   - jekyll-seo-tag
 include:
   - favicon.ico
+data_dir: _data
+disqus:
+  shortname: babakks
