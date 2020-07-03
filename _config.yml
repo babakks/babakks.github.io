@@ -10,6 +10,7 @@ url: "https://babakks.github.io"
 disqus:
   shortname: babakks
 theme: minima
+show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-sitemap
