@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Emojis for Better Git Commit Messages"
-date: 2020-05-21 12:00:00 +0430
+date: 2020-07-03 19:00:00 +0430
 categories: jekyll emoji git
 comments: true
 published: true
@@ -30,84 +30,65 @@ intent within the list. So, I began to deliberately collect my own emoji rock st
 
 This is my list:
 
-| Emoji  | Identifier              |Example commit message(s)|
-|--------|-------------------------|-------------------------|
-|🎉|`:tada:`                    | *First commit* |
-|🔨|`:hammer:`                  | *Update code* or *Improve code* |
-|📜|`:scroll:`                  | *Update `README.md`* dor *Add docs* |
-|👕|`:tshirt:`                  | *Apply linter* or *Format code* |
-|⚗️ |`:alembic:`                  | *Add tests* or *Update unit tests* |
-|🧪|`:test_tube:`                  | *Add tests* or *Update unit tests* |
-|👶|`:baby:`                    | *Add basic implementation* or *Add partial impl.* |
-|🏅|`:medal_sports:`            | *Finish implementation* |
-|🚑|`:ambulance:`               | *Urgent fix* or *Fix critical bug* |
-|⤴️|`:arrow_heading_up:`        | *Upgrade dependency* or *Upgrade version* |
-|⤵️|`:arrow_heading_down:`      | *Downgrade dependency* or *Downgrade version* |
-|🎨|`:art:`                     | *Improve visuals* or *Enhance UI/UX* |
-|✨|`:sparkles:`                | *Clean code* |
-|🔥|`:fire:`                    | *Delete directory* or *Remove unnecessary files* |
-|💩|`:poop:`                    | *Mess up legacy code* or *Apply dirty patch* |
-|💅|`:nail_care:`               | *Enhance UI/UX* |
-|⚡️ |`:zap:`                      | *Introduce breaking changes* |
-|🐛|`:bug:`                     | *Fix bug* |
-|🌙|`:crescent_moon:`           | *Update nightXy builds config* |
-|🐰|`:rabbit:`                  | *Add RabbitMQ requirements* |
-|🐋|`:whale:`                   | *Add Dockerfile* or *Update docker-compose* |
-|  |`:octocat:`                    | *Add .github dir* (only on `github.com`) |
-|🦊|`:fox_face:`                | *Add .gitlab dir* |
-|🎁|`:gift:`                    | *Add new dependencies* or *Add new feature* |
-|🔔|`:bell:`                    | *Add alarm/warning* |
-|🔕|`:no_bell:`                 | *Silence alarms/warnings* |
-|🔇|`:mute:`                    | *Silence alarms/warnings* |
-|🔐|`:closed_lock_with_key:`    | *Add more security* or *Set more permissions* |
-|🔒|`:lock:`                    | *Add more security* or *Set more permissions* |
-|🛡|`:shield:`                  | *Add more security* or *Set more permissions* |
-|🔫|`:gun:`                     | *Remove directory* or *Prune stall features* |
-|📁|`:file_folder:`             | *Change dir structure* |
-|⌚️|`:watch:`                   | *Add profiler* or *Add performance measurements* |
-|📦|`:package:`                 | *Add dependency* |
-|✏️|`:pencil:`                   | *Update README.md* or *Add docs* |
-|📚|`:books:`                   | *Update docs* |
-|📝|`:memo:`                    | *Update docs* |
-|🍝|`:spaghetti:`               | *Add badly structured code* |
-|🔓|`:unlock:`                  | *Lift permissions* or *Remove restrictions* |
-|📊|`:bar_chart:`               | *Improve performance* |
-|✂️|`:scissors:`                  | *Remove unnecessary parts* or *Separate into modules* |
-|🔖|`:bookmark:`                | *Update version* |
-|👔|`:necktie:`                 | *Apply linter* or *Format code* |
-|🎒|`:school_satchel:`          | *Build and pack* or *Make ready for deployment/launch* |
-|📈|`:chart_with_upwards_trend:`| *Improve performance* |
-|📉|`:chart_with_downwards_trend:`| *Lower performance* or *Minimize resource usage* |
-|📖|`:book:`                    | *Add docs* |
-|💄|`:lipstick:`                | *Enhance UI/UX* |
-|🚿|`:shower:`                  | *Clean code* |
-|📎|`:paperclip:`               | *Attach doc/file* |
-|🎨|`:art:`                     | *Enhance UI/UX* |
-|✈️|`:airplane:`                  | *Migrate to new interface* or *Create data migration* |
-|🏁|`:checkered_flag:`          | *Finish impl* or *Meet roadmap checkpoint* |
-|🎭|`:performing_arts:`         | *Merge branches* or *Merge two modules* |
-|⚓️|`:anchor:`                    | *Put TODO anchors* |
-|🚀|`:rocket:`                  | *Launch feature* or *Upgrade for launch* |
-|🚩|`:triangular_flag_on_post:` | *Meet roadmap checkpoint* |
-|🚧|`:construction:`            | *Apply temporary patch* or *Improve work in progress* |
-|♿️|`:wheelchair:`                | *Enhance UI/UX* or *Improve accessibility features* |
-|©️|`:copyright:`                 | *Add LICENSE file* or *Update LICENSE* |
-|®️|`:registered:`                | *Add LICENSE file* or *Update LICENSE* |
+| Emojis                                     |Example commit message(s)|
+|--------------------------------------------|-------------------------|
+|🎉 `:tada:`                              | *First commit* |
+|🔨 `:hammer:`                            | *Update code* <br/> *Improve code* |
+|📜 `:scroll:` <br/> ✏️ `:pencil:` <br/> 📚 `:books:` <br/> 📝 `:memo:` <br/> 📖 `:book:` | *Update README.md* <br/> *Add docs* |
+|👕 `:tshirt:` <br/> 👔 `:necktie:`    | *Apply linter* <br/> *Format code* |
+|⚗️ `:alembic:` <br/> 🧪 `:test_tube:`      | *Add tests* <br/> *Update unit tests* |
+|👶 `:baby:`                              | *Add basic implementation* <br/> *Add partial impl.* |
+|🏅 `:medal_sports:`                      | *Finish implementation* |
+|⤴️ `:arrow_heading_up:`                  | *Upgrade dependency* <br/> *Upgrade version* |
+|⤵️ `:arrow_heading_down:`                | *Downgrade dependency* <br/> *Downgrade version* |
+|🎨 `:art:` <br/> 💅 `:nail_care:` <br/> 💄 `:lipstick:` | *Improve visuals* <br/> *Enhance UI/UX* |
+|♿️ `:wheelchair:`                          | *Improve accessibility features* |
+|✨ `:sparkles:` <br/> 🚿 `:shower:`   | *Clean code* |
+|🔥 `:fire:` <br/> 🔫 `:gun:` ✂️ `:scissors:` | *Delete directory* <br/> *Remove unnecessary files* |
+|💩 `:poop:` <br/> 🍝 `:spaghetti:`   | *Mess up legacy code* <br/> *Apply dirty patch* |
+|⚡️ `:zap:`                                | *Introduce breaking changes* |
+|🐛 `:bug:`                               | *Fix bug* |
+|🚧 `:construction:`                      | *Apply temporary patch* <br/> *Improve work in progress* |
+|🚑 `:ambulance:`                         | *Apply urgent fix* <br/> *Fix critical bug* |
+|🌙 `:crescent_moon:`                     | *Update nightly builds config* <br/> *Create background jobs* |
+|🐰 `:rabbit:`                            | *Add RabbitMQ requirements* |
+|🐋 `:whale:`                             | *Add Dockerfile* <br/> *Update docker-compose* |
+|   `:octocat:`                              | *Add .github dir* (only on `github.com`) |
+|🦊 `:fox_face:`                          | *Add .gitlab dir* <br/> *Update .gitlab-ci.yml* |
+|🎁 `:gift:` <br/> 📦 `:package:`      | *Add new dependencies* <br/> *Add new feature* |
+|🔔 `:bell:`                              | *Add alarm/warning* |
+|🔕 `:no_bell:` <br/> 🔇 `:mute:`      | *Silence alarms/warnings* |
+|🔐 `:closed_lock_with_key:` <br/> 🔒 `:lock:` <br/> 🛡 `:shield:` | *Improve security* <br/> *Set more permissions* |
+|🔓 `:unlock:` <br/> 🔑 `:key:`        | *Lift permissions* <br/> *Remove restrictions* |
+|📁 `:file_folder:`                       | *Change dir structure* |
+|⌚️ `:watch:` <br/> ⏱ `:stopwatch:`   | *Add profiler* <br/> *Add performance measurements* |
+|📊 `:bar_chart:`                         | *Improve performance* |
+|🔖 `:bookmark:`                          | *Update version* |
+|🎒 `:school_satchel:` <br/> 🚀 `:rocket:` | *Build and pack* <br/> *Make ready for deployment/launch* |
+|📈 `:chart_with_upwards_trend:`          | *Improve performance* |
+|📉 `:chart_with_downwards_trend:`        | *Minimize resource usage* |
+|📎 `:paperclip:`                         | *Attach doc/file* |
+|✈️ `:airplane:`                            | *Migrate to new interface* <br/> *Create data migration* |
+|🏁 `:checkered_flag:`                    | *Finish impl* <br/> *Meet roadmap checkpoint* |
+|🎭 `:performing_arts:`                   | *Merge branches* <br/> *Merge two modules* |
+|⚓️ `:anchor:`                              | *Put TODO anchors* |
+|🚩 `:triangular_flag_on_post:`           | *Meet roadmap checkpoint* |
+|©️ `:copyright:` <br/> ®️ `:registered:`  | *Add LICENSE file* <br/> *Update LICENSE* |
 
 ## Emojis by context
 
 Of course knowing various emojis like the list above helps a lot, but more often that not I find myself trying to recall
-an emoji that fits best with my already written (or thought of) commit message. Not always should you find the closest
-emoji within a list like the one you've seen. That's when you'd rather have a subject/context oriented table in which
+an emoji that fits best with my already written (or thought of) commit message. Not always would you find the closest
+emoji within a list like the one you've seen. That's when you'd rather have a subject-/context-oriented table in which
 you could easily find the best candidates for your intent. I'm talking about such a table:
 
-| Emoji(s) | Context (verb/noun/adjective) |
+| Emojis | Context (verb/noun/adjective) |
 |----------|-----------------------|
 | 🐛`:bug:` <br/> 🔨`:hammer:` <br/> 🔧`:wrench:` <br/> 🗜`:clamp:` <br/> | correct <br/> fix <br/> bugfix |
 | 🐚`:shell:` <br/> 👐`:open_hands:` <br/> 📦`:package:` <br/> 🎁`:gift:` <br/> 🗳`:ballot_box:` <br/> 🗃`:card_file_box:` <br/> 📥`:inbox_tray:` <br/> 📤`:outbox_tray:` <br/> | wrap <br/> hold <br/> cover <br/> shell <br/> safe <br/> box <br/> contain |
 | 🎭`:performing_arts:` <br/> 🤝`:handshake:` <br/> 🗜`:clamp:` <br/>  📎`:paperclip:` <br/> 🖇`:paperclips:` <br/> 🔗`:link:` <br/> 🔀`:twisted_rightwards_arrows:` <br/>  🔃`:arrows_clockwise:` <br/> 🔄`:arrows_counterclockwise:` <br/> 👥`:busts_in_silhouette:` <br/> | merge <br/> mix <br/> attach <br/> convolve <br/> append <br/> prepend <br/> unify <br/> combine <br/> distill <br/> handshake |
 | 🔥`:fire:` <br/> 🔫`:gun:` <br/> 💣`:bomb:` <br/> 🗑`:wastebasket:` <br/> 🚮`:put_litter_in_its_place:` <br/> ⚰️`:coffin:` <br/> ☠️`:skull_and_crossbones:` <br/> 💀`:skull:` <br/> ✝️`:latin_cross:` <br/> ❌`:x:` <br/> ❎`:negative_squared_cross_mark:` <br/> ✖️`:heavy_multiplication_x:` <br/> 📤`:outbox_tray:` <br/> ✂️`:scissors:` <br/> 🔪`:knife:` <br/> ⚔️`:crossed_swords:` <br/> 🗃`:card_file_box:` <br/> 🗄`:file_cabinet:` <br/> | remove <br/> delete <br/> drop <br/> cancel <br/> exclude <br/> archive |
-| 📶`:signal_strength:` <br/> 📈`:chart_with_upwards_trend:` <br/> 📉`:chart_with_downwards_trend:` <br/> ↕️`:arrow_up_down:` <br/> ⬆️`:arrow_up:` <br/> ⬇️`:arrow_down:` <br/> ⬆️`:arrow_up:` <br/> 🍽`:plate_with_cutlery:` <br/> 🔢`:1234:` <br/> | order <br/> sort <br/> arrange <br/> reorder |
+| 📶`:signal_strength:` <br/> 📈`:chart_with_upwards_trend:` <br/> 📉`:chart_with_downwards_trend:` <br/> ↕️`:arrow_up_down:` <br/> ⬆️`:arrow_up:` <br/> ⬇️`:arrow_down:` <br/> 🍽`:plate_with_cutlery:` <br/> 🔢`:1234:` <br/> | order <br/> sort <br/> arrange <br/> reorder |
 | 🔨`:hammer:` <br/> 🔧`:wrench:` <br/> 🎖`:medal_military:` <br/> ✨`:sparkles:` <br/> 🥇`:1st_place_medal:` <br/> 🎨`:art:` <br/> 🖌`:paintbrush:` <br/> 💄`:lipstick:` <br/> 💅`:nail_care:` <br/> 👠`:high_heel:` <br/> 🌈`:rainbow:` <br/> 🐦`:bird:` <br/> | improve <br/> enhance <br/> upgrade <br/> refresh <br/> beauty <br/> embellish <br/> cosmetics |
 | 💉`:syringe:` <br/> 🔨`:hammer:` <br/> 🔧`:wrench:` <br/> ✔️`:heavy_check_mark:` <br/> ✅`:white_check_mark:` <br/> ☑️`:ballot_box_with_check:` <br/> 🖊`:pen:` <br/> | apply <br/> set <br/> put <br/> commit <br/> register <br/> confirm |
 | ➕`:heavy_plus_sign:` <br/> 📎`:paperclip:` <br/> 🖇`:paperclips:` <br/> 📦`:package:` <br/> 🎁`:gift:` <br/> 🏁`:checkered_flag:` <br/>  ⬆️`:arrow_up:` <br/> 🌱`:seedling:` <br/> ⏫`:arrow_double_up:` <br/> 📥`:inbox_tray:` <br/> 👶`:baby:` <br/> 🐤`:baby_chick:` <br/> 🚼`:baby_symbol:` <br/> 🆕`:new:` <br/> 🌼`:blossom:` <br/> ✨`:sparkles:` <br/> ❇️`:sparkle:` <br/> 🔌`:electric_plug:` <br/> | add <br/> insert <br/> update <br/> upgrade <br/> increase <br/> register <br/> append <br/> prepend <br/> feature |
@@ -120,7 +101,7 @@ you could easily find the best candidates for your intent. I'm talking about suc
 | ⏱`:stopwatch:` <br/> ⏲`:timer:` <br/> ⏰`:alarm_clock:` <br/> 📆`:calendar:` <br/> 🗓`:spiral_calendar:` <br/> 🏃`:runner:` <br/> | job <br/> cron <br/> schedule <br/> time <br/> period <br/> repeat <br/> repetitive |
 | 🔍`:mag:` <br/> 🔎`:mag_right:` <br/> 🔦`:flashlight:` <br/> 🕵`:detective:` <br/> 🔭`:telescope:` <br/> 🔬`:microscope:` <br/> 🐶`:dog:` <br/> 🐕`:dog2:` <br/> 👃`:nose:` <br/> | search <br/> find <br/> lookup <br/> browse <br/> query <br/> select |
 | ⬇️`:arrow_down:` <br/> ⏬`:arrow_double_down:` <br/> ⤵️`:arrow_heading_down:` <br/> 👎`:thumbsdown:` <br/> | rollback <br/> downgrade <br/> reset <br/> repopulate <br/> revert <br/> undo |
-| 📜`:scroll:` <br/> 📝`:pencil:` <br/> ✍️`:writing_hand:` <br/> 📰`:newspaper:` <br/> 🗞`:newspaper_roll:` <br/> 📋`:clipboard:` <br/> 📖`:book:` <br/> 📑`:bookmark_tabs:` <br/> 📚`:books:` <br/> 📘`:blue_book:` <br/> 📙`:orange_book:` <br/> 📓`:notebook:` <br/> 🖊`:pen:` <br/> ✏️`:pencil2:` <br/> 🖨`:printer:` <br/> 📠`:fax:` <br/> | log <br/> record <br/> store <br/> draft <br/> note <br/> text <br/> README <br/> guide <br/> manual <br/> comment |
+| 📜`:scroll:` <br/> 📝`:pencil:` <br/> ✍️`:writing_hand:` <br/> 📰`:newspaper:` <br/> 🗞`:newspaper_roll:` <br/> 📋`:clipboard:` <br/> 📖`:book:` <br/> 📑`:bookmark_tabs:` <br/> 📚`:books:` <br/> 📘`:blue_book:` <br/> 📙`:orange_book:` <br/> 📓`:notebook:` <br/> 🖊`:pen:` <br/> ✏️`:pencil2:` <br/> 🖨`:printer:` <br/> 📠`:fax:` <br/> 💬`:speech_balloon:` <br/> | log <br/> record <br/> store <br/> draft <br/> note <br/> text <br/> README <br/> guide <br/> manual <br/> comment |
 | ⚠️`:warning:` <br/> ✋`:hand:` <br/> ❗️`:heavy_exclamation_mark:` <br/> ❗️`:exclamation:` <br/> ❕`:grey_exclamation:` <br/> | avoid <br/> prevent <br/> caution <br/> safe <br/> look out <br/> beware <br/> notice <br/> warning |
 | 🛑`:stop_sign:` <br/> ☣️`:biohazard:` <br/> 💀`:skull:` <br/> ☠️`:skull_and_crossbones:` <br/> 🔥`:fire:` <br/> ⏹`:stop_button:` <br/> ⚰️`:coffin:` <br/> ✝️`:latin_cross:` <br/> ✖️`:heavy_multiplication_x:` <br/>  | error <br/> exception <br/> hazard <br/> danger <br/> stop <br/> crash <br/> abort <br/> deadlock |
 | 👨`:man:` <br/> 👩`:woman:` <br/> | user <br/> human <br/> operator |
