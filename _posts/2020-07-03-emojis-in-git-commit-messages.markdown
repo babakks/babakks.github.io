@@ -2,12 +2,13 @@
 layout: post
 title: "Emojis for Better Git Commit Messages"
 date: 2020-07-03 19:00:00 +0430
-excerpt: &excerpt |
-    I'm madly in love with emojis.These cute little digital beings not only help convey your emotions in chats, but
-    do carry weights of meanings which, when faced, we all would easy grasp in a split second. Let's, effectively, use
-    them in our Git commit messages; where being terse, while informative, is a big plus.
-description: *excerpt
-categories: jekyll emoji git commit
+excerpt: |
+    Using emoji (aka, emoticon or smiley) in git commit messages helps conveying your intentions in a more terse and
+    effective way. I'm madly in love with emojis. These cute little digital beings not only help convey your emotions in
+    chats, but do carry weights of meanings which, when faced, we all would easy grasp in a split second. Here, I'll
+    explore various emojis, by context, to help you save your time finding the best emoji that fits your commit
+    messages.
+categories: jekyll emoji git
 author: babakks
 comments: true
 published: true
@@ -36,50 +37,50 @@ intent within the list. So, I began to deliberately collect my own emoji rock st
 
 This is my list:
 
-| Emojis                                     |Example commit message(s)|
-|--------------------------------------------|-------------------------|
-|🎉 `:tada:`                              | *First commit* |
-|🔨 `:hammer:`                            | *Update code* <br/> *Improve code* |
+| Emojis                                                                                               |Example commit message(s)|
+|-|-|
+|🎉 `:tada:`                                                                                        | *First commit* |
+|🔨 `:hammer:`                                                                                      | *Update code* <br/> *Improve code* |
 |📜 `:scroll:` <br/> ✏️ `:pencil:` <br/> 📚 `:books:` <br/> 📝 `:memo:` <br/> 📖 `:book:` | *Update README.md* <br/> *Add docs* |
-|👕 `:tshirt:` <br/> 👔 `:necktie:`    | *Apply linter* <br/> *Format code* |
-|⚗️ `:alembic:` <br/> 🧪 `:test_tube:`      | *Add tests* <br/> *Update unit tests* |
-|👶 `:baby:`                              | *Add basic implementation* <br/> *Add partial impl.* |
-|🏅 `:medal_sports:`                      | *Finish implementation* |
-|⤴️ `:arrow_heading_up:`                  | *Upgrade dependency* <br/> *Upgrade version* |
-|⤵️ `:arrow_heading_down:`                | *Downgrade dependency* <br/> *Downgrade version* |
-|🎨 `:art:` <br/> 💅 `:nail_care:` <br/> 💄 `:lipstick:` | *Improve visuals* <br/> *Enhance UI/UX* |
-|♿️ `:wheelchair:`                          | *Improve accessibility features* |
-|✨ `:sparkles:` <br/> 🚿 `:shower:`   | *Clean code* |
-|🔥 `:fire:` <br/> 🔫 `:gun:` ✂️ `:scissors:` | *Delete directory* <br/> *Remove unnecessary files* |
-|💩 `:poop:` <br/> 🍝 `:spaghetti:`   | *Mess up legacy code* <br/> *Apply dirty patch* |
-|⚡️ `:zap:`                                | *Introduce breaking changes* |
-|🐛 `:bug:`                               | *Fix bug* |
-|🚧 `:construction:`                      | *Apply temporary patch* <br/> *Improve work in progress* |
-|🚑 `:ambulance:`                         | *Apply urgent fix* <br/> *Fix critical bug* |
-|🌙 `:crescent_moon:`                     | *Update nightly builds config* <br/> *Create background jobs* |
-|🐰 `:rabbit:`                            | *Add RabbitMQ requirements* |
-|🐋 `:whale:`                             | *Add Dockerfile* <br/> *Update docker-compose* |
-|   `:octocat:`                              | *Add .github dir* (only on `github.com`) |
-|🦊 `:fox_face:`                          | *Add .gitlab dir* <br/> *Update .gitlab-ci.yml* |
-|🎁 `:gift:` <br/> 📦 `:package:`      | *Add new dependencies* <br/> *Add new feature* |
-|🔔 `:bell:`                              | *Add alarm/warning* |
-|🔕 `:no_bell:` <br/> 🔇 `:mute:`      | *Silence alarms/warnings* |
-|🔐 `:closed_lock_with_key:` <br/> 🔒 `:lock:` <br/> 🛡 `:shield:` | *Improve security* <br/> *Set more permissions* |
-|🔓 `:unlock:` <br/> 🔑 `:key:`        | *Lift permissions* <br/> *Remove restrictions* |
-|📁 `:file_folder:`                       | *Change dir structure* |
-|⌚️ `:watch:` <br/> ⏱ `:stopwatch:`   | *Add profiler* <br/> *Add performance measurements* |
-|📊 `:bar_chart:`                         | *Improve performance* |
-|🔖 `:bookmark:`                          | *Update version* |
-|🎒 `:school_satchel:` <br/> 🚀 `:rocket:` | *Build and pack* <br/> *Make ready for deployment/launch* |
-|📈 `:chart_with_upwards_trend:`          | *Improve performance* |
-|📉 `:chart_with_downwards_trend:`        | *Minimize resource usage* |
-|📎 `:paperclip:`                         | *Attach doc/file* |
-|✈️ `:airplane:`                            | *Migrate to new interface* <br/> *Create data migration* |
-|🏁 `:checkered_flag:`                    | *Finish impl* <br/> *Meet roadmap checkpoint* |
-|🎭 `:performing_arts:`                   | *Merge branches* <br/> *Merge two modules* |
-|⚓️ `:anchor:`                              | *Put TODO anchors* |
-|🚩 `:triangular_flag_on_post:`           | *Meet roadmap checkpoint* |
-|©️ `:copyright:` <br/> ®️ `:registered:`  | *Add LICENSE file* <br/> *Update LICENSE* |
+|👕 `:tshirt:` <br/> 👔 `:necktie:`                                                              | *Apply linter* <br/> *Format code* |
+|⚗️ `:alembic:` <br/> 🧪 `:test_tube:`                                                                | *Add tests* <br/> *Update unit tests* |
+|👶 `:baby:`                                                                                        | *Add basic implementation* <br/> *Add partial impl.* |
+|🏅 `:medal_sports:`                                                                                | *Finish implementation* |
+|⤴️ `:arrow_heading_up:`                                                                            | *Upgrade dependency* <br/> *Upgrade version* |
+|⤵️ `:arrow_heading_down:`                                                                          | *Downgrade dependency* <br/> *Downgrade version* |
+|🎨 `:art:` <br/> 💅 `:nail_care:` <br/> 💄 `:lipstick:`                                      | *Improve visuals* <br/> *Enhance UI/UX* |
+|♿️ `:wheelchair:`                                                                                    | *Improve accessibility features* |
+|✨ `:sparkles:` <br/> 🚿 `:shower:`                                                             | *Clean code* |
+|🔥 `:fire:` <br/> 🔫 `:gun:` ✂️ `:scissors:`                                                   | *Delete directory* <br/> *Remove unnecessary files* |
+|💩 `:poop:` <br/> 🍝 `:spaghetti:`                                                              | *Mess up legacy code* <br/> *Apply dirty patch* |
+|⚡️ `:zap:`                                                                                           | *Introduce breaking changes* |
+|🐛 `:bug:`                                                                                         | *Fix bug* |
+|🚧 `:construction:`                                                                                | *Apply temporary patch* <br/> *Improve work in progress* |
+|🚑 `:ambulance:`                                                                                   | *Apply urgent fix* <br/> *Fix critical bug* |
+|🌙 `:crescent_moon:`                                                                               | *Update nightly builds config* <br/> *Create background jobs* |
+|🐰 `:rabbit:`                                                                                      | *Add RabbitMQ requirements* |
+|🐋 `:whale:`                                                                                       | *Add Dockerfile* <br/> *Update docker-compose* |
+|   `:octocat:`                                                                                        | *Add .github dir* (only on `github.com`) |
+|🦊 `:fox_face:`                                                                                    | *Add .gitlab dir* <br/> *Update .gitlab-ci.yml* |
+|🎁 `:gift:` <br/> 📦 `:package:`                                                                | *Add new dependencies* <br/> *Add new feature* |
+|🔔 `:bell:`                                                                                        | *Add alarm/warning* |
+|🔕 `:no_bell:` <br/> 🔇 `:mute:`                                                                | *Silence alarms/warnings* |
+|🔐 `:closed_lock_with_key:` <br/> 🔒 `:lock:` <br/> 🛡 `:shield:`                            | *Improve security* <br/> *Set more permissions* |
+|🔓 `:unlock:` <br/> 🔑 `:key:`                                                                  | *Lift permissions* <br/> *Remove restrictions* |
+|📁 `:file_folder:`                                                                                 | *Change dir structure* |
+|⌚️ `:watch:` <br/> ⏱ `:stopwatch:`                                                             | *Add profiler* <br/> *Add performance measurements* |
+|📊 `:bar_chart:`                                                                                   | *Improve performance* |
+|🔖 `:bookmark:`                                                                                    | *Update version* |
+|🎒 `:school_satchel:` <br/> 🚀 `:rocket:`                                                       | *Build and pack* <br/> *Make ready for deployment/launch* |
+|📈 `:chart_with_upwards_trend:`                                                                    | *Improve performance* |
+|📉 `:chart_with_downwards_trend:`                                                                  | *Minimize resource usage* |
+|📎 `:paperclip:`                                                                                   | *Attach doc/file* |
+|✈️ `:airplane:`                                                                                      | *Migrate to new interface* <br/> *Create data migration* |
+|🏁 `:checkered_flag:`                                                                              | *Finish impl* <br/> *Meet roadmap checkpoint* |
+|🎭 `:performing_arts:`                                                                             | *Merge branches* <br/> *Merge two modules* |
+|⚓️ `:anchor:`                                                                                        | *Put TODO anchors* |
+|🚩 `:triangular_flag_on_post:`                                                                     | *Meet roadmap checkpoint* |
+|©️ `:copyright:` <br/> ®️ `:registered:`                                                            | *Add LICENSE file* <br/> *Update LICENSE* |
 
 ## Emojis by context
 
