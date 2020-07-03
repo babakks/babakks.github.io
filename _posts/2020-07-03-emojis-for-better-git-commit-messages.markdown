@@ -2,7 +2,12 @@
 layout: post
 title: "Emojis for Better Git Commit Messages"
 date: 2020-07-03 19:00:00 +0430
-categories: jekyll emoji git
+excerpt: &excerpt |
+    I'm madly in love with emojis.These cute little digital beings not only help convey your emotions in chats, but
+    do carry weights of meanings which, when faced, we all would easy grasp in a split second. Let's, effectively, use
+    them in our Git commit messages; where being terse, while informative, is a big plus.
+description: *excerpt
+categories: jekyll emoji git 
 comments: true
 published: true
 ---
