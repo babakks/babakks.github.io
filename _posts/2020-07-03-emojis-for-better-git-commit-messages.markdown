@@ -7,7 +7,8 @@ excerpt: &excerpt |
     do carry weights of meanings which, when faced, we all would easy grasp in a split second. Let's, effectively, use
     them in our Git commit messages; where being terse, while informative, is a big plus.
 description: *excerpt
-categories: jekyll emoji git 
+categories: jekyll emoji git commit
+author: babakks
 comments: true
 published: true
 ---
