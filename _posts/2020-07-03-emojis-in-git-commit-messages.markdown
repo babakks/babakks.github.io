@@ -8,7 +8,7 @@ excerpt: |
     chats, but do carry weights of meanings which, when faced, we all would easy grasp in a split second. Here, I'll
     explore various emojis, by context, to help you save your time finding the best emoji that fits your commit
     messages.
-categories: jekyll emoji git
+categories: article
 author: babakks
 comments: true
 published: true
