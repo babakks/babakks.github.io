@@ -40,7 +40,7 @@ This is my list:
 |🎨 `:art:` <br/> 💅 `:nail_care:` <br/> 💄 `:lipstick:`                                      | *Improve visuals* <br/> *Enhance UI/UX* |
 |♿️ `:wheelchair:`                                                                                    | *Improve accessibility features* |
 |✨ `:sparkles:` <br/> 🚿 `:shower:`                                                             | *Clean code* |
-|🔥 `:fire:` <br/> 🔫 `:gun:` ✂️ `:scissors:`                                                   | *Delete directory* <br/> *Remove unnecessary files* |
+|🔥 `:fire:` <br/> 🔫 `:gun:` <br/> ✂️ `:scissors:`                                                   | *Delete directory* <br/> *Remove unnecessary files* |
 |💩 `:poop:` <br/> 🍝 `:spaghetti:`                                                              | *Mess up legacy code* <br/> *Apply dirty patch* |
 |⚡️ `:zap:`                                                                                           | *Introduce breaking changes* |
 |🐛 `:bug:` <br/> 🐞 `:beetle:`                                                                   | *Fix bug* |
