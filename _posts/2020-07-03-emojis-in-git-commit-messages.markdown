@@ -14,26 +14,15 @@ comments: true
 published: true
 ---
 
-I have to confess that I'm madly in love with emojis. They're cute, little digital beings that convey your emotions or
-meaning far better/deeper/shorter than words. Using them in git commit messages was a truly **brilliant** idea from whom
-we'd never know. Speaking of commit messages, it's obvious we're not going to leverage the emotional charge of the
-emojis --at least for now-- but their **terseness** and excellent **readability** is their best merit we could use.
-Let alone their **diversity**, **wide availability**, and **text nature**.
+I have to confess that I'm madly in love with emojis. They're cute, little digital beings that convey your emotions or meaning far better/deeper/shorter than words. Using them in git commit messages was a truly **brilliant** idea from whom we'd never know. Speaking of commit messages, it's obvious we're not going to leverage the emotional charge of the emojis --at least for now-- but their **terseness** and excellent **readability** is their best merit we could use. Let alone their **diversity**, **wide availability**, and **text nature**.
 
 ## The problem with emojis
 
-As a big fan, I use them almost everywhere I can replace them for words, though sometimes it's a little difficult to
-find the right emoji. When it comes to writing git commit messages, people won't feel good for wasting 15 minutes
-looking for the best emoji on the context. That's one reason, I guess, that emojis are yet to grow popular. There are
-few cases that our exact intention easily matches with an emoji. In most cases you have to rephrase, rethink or reshape
-your words to find that hidden one. I get it. That's why I started to write an article on the subject to list some of my
-favorite emojis that you'll find extremely useful in your day-to-day experience.
+As a big fan, I use them almost everywhere I can replace them for words, though sometimes it's a little difficult to find the right emoji. When it comes to writing git commit messages, people won't feel good for wasting 15 minutes looking for the best emoji on the context. That's one reason, I guess, that emojis are yet to grow popular. There are few cases that our exact intention easily matches with an emoji. In most cases you have to rephrase, rethink or reshape your words to find that hidden one. I get it. That's why I started to write an article on the subject to list some of my favorite emojis that you'll find extremely useful in your day-to-day experience.
 
 ## Emoji rock stars
 
-I myself first saw [this][parmentf] neat GitHub Gist on the emoji recommendations. The author, *François*, did cover a
-wide range of situations. In the beginning, I've been trying to stick with them but sometimes it was hard to find my
-intent within the list. So, I began to deliberately collect my own emoji rock stars.
+I myself first saw [this][parmentf] neat GitHub Gist on the emoji recommendations. The author, *François*, did cover a wide range of situations. In the beginning, I've been trying to stick with them but sometimes it was hard to find my intent within the list. So, I began to deliberately collect my own emoji rock stars.
 
 This is my list:
 
@@ -84,10 +73,7 @@ This is my list:
 
 ## Emojis by context
 
-Of course knowing various emojis like the list above helps a lot, but more often that not I find myself trying to recall
-an emoji that fits best with my already written (or thought of) commit message. Not always would you find the closest
-emoji within a list like the one you've seen. That's when you'd rather have a subject-/context-oriented table in which
-you could easily find the best candidates for your intent. I'm talking about such a table:
+Of course knowing various emojis like the list above helps a lot, but more often that not I find myself trying to recall an emoji that fits best with my already written (or thought of) commit message. Not always would you find the closest emoji within a list like the one you've seen. That's when you'd rather have a subject-/context-oriented table in which you could easily find the best candidates for your intent. I'm talking about such a table:
 
 | Emojis | Context (verb/noun/adjective) |
 |----------|-----------------------|
@@ -142,7 +128,7 @@ you could easily find the best candidates for your intent. I'm talking about suc
 
 ## Look further
 
-See emoji [cheatsheet][cheatsheet] for a complete list of emojis that you can use on GitHub or other platforms.
+See emoji [cheat sheet][cheatsheet] for a complete list of emojis that you can use on GitHub or other platforms.
 
 [parmentf]: https://gist.github.com/parmentf/035de27d6ed1dce0b36a
 [cheatsheet]: https://www.webfx.com/tools/emoji-cheat-sheet/
