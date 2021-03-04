@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basic Vim Shortcuts in VS Code"
-date: 2020-03-04 13:00:00 +0330
+date: 2021-03-04 13:00:00 +0330
 excerpt: |
     Vim and VS Code are both great super text editors with their unique
     features. Although the superb keyboard shortcuts of Vim are missing in VS
