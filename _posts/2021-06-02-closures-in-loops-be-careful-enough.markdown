@@ -56,8 +56,8 @@ for (f of fn) console.log(f());
 
 Here, I've used both syntaxes of anonymous function definitions to make things clean/separate. I'm sure you got the point, but in case you're interested to know more, have look on these great posts:
 
-- https://decembersoft.com/posts/understanding-javascript-closures-in-for-loops/
-- https://medium.com/@ryansperzel/practicing-loops-and-closures-7487bed8c7e3
+- [Understanding JavaScript Closures in For-loops](https://decembersoft.com/posts/understanding-javascript-closures-in-for-loops/)
+- [Practicing Lloops and Closures](https://medium.com/@ryansperzel/practicing-loops-and-closures-7487bed8c7e3)
 
 ---
 
