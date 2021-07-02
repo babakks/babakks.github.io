@@ -59,6 +59,5 @@ Here, I've used both syntaxes of anonymous function definitions to make things c
 - [Understanding JavaScript Closures in For-loops](https://decembersoft.com/posts/understanding-javascript-closures-in-for-loops/)
 - [Practicing Lloops and Closures](https://medium.com/@ryansperzel/practicing-loops-and-closures-7487bed8c7e3)
 
----
 
 {% include_relative regular-encounters-footer.markdown %}
