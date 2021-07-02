@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Closures in Loops; Be Careful Enough"
+title: "Closures in Loops; Be Careful Enough [RE#2]"
 date: 2021-06-02 14:05:00 +0330
 excerpt: |
     How scope variables are bound to closures could sometimes seems a little
@@ -61,5 +61,4 @@ Here, I've used both syntaxes of anonymous function definitions to make things c
 
 ---
 
-***About Regular Encounters***  
-*I've decided to record my daily encounters with professional issues on a somewhat regular basis. Not all of them are equally important/unique/intricate, but are indeed practical, real, and of course,* ***textually minimal.***
+{% include_relative regular-encounters-footer.markdown %}
