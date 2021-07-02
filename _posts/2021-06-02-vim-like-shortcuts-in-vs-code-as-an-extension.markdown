@@ -15,7 +15,7 @@ published: true
 
 In a recent [blog post][blog-post], I talked about my way of overriding some keyboard shortcuts to kind of resemble those of VIM which we like the most. Now, to make it easier for you to test drive it, I've made this VS Code extension, *Semi-Vim Shortcuts*, which you can find and install from [here][extension]. 🏇
 
-In VS Code, aside from the *Extensions* view (`ctrl` `shift` `x`), you can install the extension by pressing `ctrl` `p` and entering this in the command bar:
+In VS Code, aside from the *Extensions* view (`ctrl` + `shift` + `x`), you can install the extension by pressing `ctrl` + `p` and entering this in the command bar:
 
 ```
 ext install babakks.vscode-vim-shortcuts
