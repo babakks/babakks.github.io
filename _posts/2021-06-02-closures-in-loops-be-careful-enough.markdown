@@ -22,7 +22,7 @@ for (x of a) fn.push(() => x);
 for (f of fn) console.log(f());
 ```
 
-Simply, we've added three functions to `fn` that each should return their corresponding value of list 'a'. So, we expect to see this as output:
+Simply, we've added three functions to `fn` that each should return their corresponding value of list `a`. So, we expect to see this as output:
 
 ```
 0
@@ -54,10 +54,10 @@ for (x of a)
 for (f of fn) console.log(f());
 ```
 
-Here, I've used both syntaxes of anonymous function definitions to make things clean/separate. I'm sure you got the point, but in case you're interested to know more, have look on these great posts:
+Here, I've used both syntaxes of anonymous function definitions to make things clean/separate. I'm sure you got the point, but in case you're interested to know more, have a look on these great posts:
 
 - [Understanding JavaScript Closures in For-loops](https://decembersoft.com/posts/understanding-javascript-closures-in-for-loops/)
-- [Practicing Lloops and Closures](https://medium.com/@ryansperzel/practicing-loops-and-closures-7487bed8c7e3)
+- [Practicing Loops and Closures](https://medium.com/@ryansperzel/practicing-loops-and-closures-7487bed8c7e3)
 
 
 {% include_relative regular-encounters-footer.markdown %}
