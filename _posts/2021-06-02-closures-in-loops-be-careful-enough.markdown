@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Closures in Loops; Be Careful Enough"
-date: 2021-03-04 14:05:00 +0330
+date: 2021-06-02 14:05:00 +0330
 excerpt: |
     How scope variables are bound to closures could sometimes seems a little
     tricky; however it's us humans that overlook some vital points.
