@@ -7,10 +7,10 @@ excerpt: |
 categories: article
 author: babakks
 comments: true
-published: false
+published: true
 ---
 
-Though 99% of the time we use a text editor like `vim` or `nano`, still knowing how to do simple string manipulations via shell commands is more than necessary. The simplest use case emerges in CI/CD pipeline where you may need to replace some placeholder with a specific (e.g., a dynamic docker image tag).
+Though 99% of the time we use a text editor like `vim` or `nano`, still knowing how to do simple string manipulations via shell commands is more than necessary. The simplest use case emerges in CI/CD pipeline where you may need to replace some placeholder with a specific text (e.g., a dynamic docker image tag). 🤖
 
 One simple tool for this purpose is `sed`. For example, to replace "[tag]" with "abcdef" execute:
 
@@ -30,7 +30,7 @@ You may add more expressions by adding any number of `-e expression` arguments:
 sed -e 's/[tag]/abcdef/g' -e 's/[image]/app/g' input-file.txt
 ```
 
-To learn more useful applucationof `sed` have a look at [this][more] article.
+ℹ️ To learn more useful applications of `sed` have a look at [this][more] article.
 
 [more]: https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/amp/
 
