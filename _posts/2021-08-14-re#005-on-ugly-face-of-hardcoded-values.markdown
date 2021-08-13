@@ -8,6 +8,7 @@ categories: article
 author: babakks
 comments: true
 published: true
+series: "Regular Encounters"
 ---
 
 Recently I've been working on a service maintenance/migration problem and needed to change a few configuration parameters (names of several RabbitMQ queues/exchanges.)
