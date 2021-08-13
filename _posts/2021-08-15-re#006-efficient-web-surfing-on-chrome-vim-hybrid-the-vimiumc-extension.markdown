@@ -7,7 +7,7 @@ excerpt: |
 categories: article
 author: babakks
 comments: true
-published: false
+published: true
 ---
 
 If you know Vim, you probably have dreamed that other desktop applications had such a rapid/efficient user experience too. The good news is that there's this Chrome extension that realizes your foggy imaginations. Look at the image below and you'll get the point.
