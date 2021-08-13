@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Feature Flag Are Necessary [RE#1]"
+title: "Feature Flags Are Necessary [RE#1]"
 date: 2021-06-02 14:00:00 +0330
 excerpt: |
     Feature flags are of those little creatures that could bring a huge benefit to your side. 
