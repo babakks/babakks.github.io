@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "On Ugly Face of Hardcoded Values [RE#5]"
-date: 2021-08-14 12:30:00 +0330
+date: 2021-08-14 00:00:00 +0330
 excerpt: |
     Hard coded values are tiny, wicked creatures. They wait, sometimes for years, to spot the right moment and bring you down.
 categories: article
 author: babakks
 comments: true
-published: false
+published: true
 ---
 
 Recently I've been working on a service maintenance/migration problem and needed to change a few configuration parameters (names of several RabbitMQ queues/exchanges.)
