@@ -16,8 +16,8 @@ there's this Chrome extension that realizes your foggy imaginations. Look at the
 
 Have fun browsing! 😉
 
-![](/img/2021-08-20-re#006-vimiumc.png)
+![](/img/2021-08-20-re%23006-vimiumc.png)
 
-![](/img/2021-08-20-re#006-vimiumc-help.png)
+![](/img/2021-08-20-re%23006-vimiumc-help.png)
 
 {% include_relative regular-encounters-footer.markdown %}
