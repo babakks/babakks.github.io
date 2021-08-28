@@ -37,4 +37,6 @@ If you couldn't find the file don't attempt to create it by yourself. Just creat
 ipython profile create
 ```
 
+[stack]: https://stackoverflow.com/a/38329940/7089799
+
 {% include_relative regular-encounters-footer.markdown %}
