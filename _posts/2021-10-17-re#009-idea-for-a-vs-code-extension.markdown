@@ -15,6 +15,6 @@ Recently, I was editing our Gitlab CI pipeline. In our repositories we use Makef
 
 While doing my task, I tried, several times, to invoke the auto-format command as I usually would when coding but every time I did it a message popped saying no formatter was installed for Makefiles. I remember searching for some extension, but nothing I found on the subject. That is a real frustration for any **obsessive** developer. 🤦
 
-Since Makefiles are among common tools for project automations, I think it's a good idea to develop a Makefile formatter extension for VS Code or any other popular IDE/Editor.
+Since Makefiles are among common tools for project automations, I think it's a good idea to develop a Makefile formatter extension for VS Code or any other popular IDE/editor.
 
 {% include_relative regular-encounters-footer.markdown %}
