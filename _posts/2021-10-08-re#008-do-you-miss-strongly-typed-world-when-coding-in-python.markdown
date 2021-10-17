@@ -24,7 +24,7 @@ pip install mypy
 Just run it in your Python project's root directory to see the devils under the ground:
 
 ```sh
-mypy
+mypy .
 ```
 
 Of course, to make the most out of it, you have to embellish your code with type annotations as exhaustively as possible. Type annotations (and the `typing` library) in Python were introduced in version 3.5. With `mypy`, configuration is a no brainer. Just look at this example (file `.mypy.ini` at root):
