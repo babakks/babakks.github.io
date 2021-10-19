@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Handle/Raise Exceptions with Little to No Further Processing [RE#10]"
-date: 2021-10-17 19:00:00 +0330
+date: 2021-10-19 16:30:00 +0330
 excerpt: |
     When handling exceptions, or raising them, we are prone to forgetting a perpetual danger.
 categories: article
