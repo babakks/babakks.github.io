@@ -24,7 +24,7 @@ Now, things have changed. Just open [vscode.dev][vscode-dev] to see the **offici
 
 Also, make sure to check the [blog post][blog] to get familiar with the new cool shortcuts that accelerate your development in the new environment.
 
-[vscode-dev]: https://vscode.de
+[vscode-dev]: https://vscode.dev
 [blog]: https://code.visualstudio.com/blogs/2021/10/20/vscode-dev
 
 {% include_relative regular-encounters-footer.markdown %}
