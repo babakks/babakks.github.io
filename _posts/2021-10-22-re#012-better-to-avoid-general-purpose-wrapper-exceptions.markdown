@@ -35,6 +35,6 @@ Here, the `process()` method only raises a `DataProcessingFailure` exception, if
 
 The reason behind advising against wrapper exceptions is the change of behavior that you exert on the downstream system seen by higher level controllers. For instance, you could mask a well-defined exception that itself is an intricate part of the domain model. Another example is when your wrapper could mask network related exceptions, most of which resolve just by retrying, albeit if some caller at higher level of call stack could catch them as they are.
 
-Putting it all together, you'd logically prefer minimizing footprints/side-effects of various components/implementations on each other, so that they could avoid unwanted couplings/special-treatments.
+Putting it all together, you'd logically prefer minimizing footprints/side-effects of various components/implementations on each other, so that you could avoid unwanted couplings/special-treatments.
 
 {% include_relative regular-encounters-footer.markdown %}
