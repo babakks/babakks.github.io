@@ -16,18 +16,20 @@ If you've ever faced such temptation to wrap inner exceptions within some neatly
 To elaborate on the issue, consider the hypothetical `DataProcessor` and the general purpose exception type `DataProcessingFailure` below:
 
 ```ts
-class DataProcessingFailure extends Exception {
-  ctor(public innerException: Exception) {}
+class DataProcessingFailure extends Error {
+  constructor(public innerError: Error) {
+    super();
+  }
 }
 
 class DataProcessor {
   process() {
     try {
       // Some processing
-    } catch (Exception ex) {
-      throw DataProcessingFailure(ex) 
-    } 
-  } 
+    } catch (err) {
+      throw new DataProcessingFailure(err)
+    }
+  }
 } 
 ```
 
