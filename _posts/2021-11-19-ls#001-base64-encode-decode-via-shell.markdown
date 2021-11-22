@@ -7,7 +7,7 @@ categories: article
 author: babakks
 comments: true
 published: true
-image: "img/living-in-the-shell.png"
+image: "/img/living-in-the-shell.png"
 series: "Living in the Shell"
 ---
 
