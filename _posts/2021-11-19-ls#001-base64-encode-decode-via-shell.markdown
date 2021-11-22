@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Base64 Encode/Decode via Shell [LS#1]"
+title: "Living in the Shell; Base64 [LS#1]"
 date: 2021-11-19 22:00:00 +0330
-excerpt: |
-    How to encode to or decode from Base64 representation?
+excerpt: ""
 categories: article
 author: babakks
 comments: true
 published: true
+image: "img/living-in-the-shell.png"
 series: "Living in the Shell"
 ---
 
