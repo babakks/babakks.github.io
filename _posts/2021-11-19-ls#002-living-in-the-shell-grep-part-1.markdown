@@ -23,7 +23,7 @@ Prints/filters lines that match a [Regular Expression (RE)][re] pattern.
 echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep "Good"
 ```
 
-- ```text
+> ```text
   Goodbye!
   ```
 
@@ -43,7 +43,7 @@ grep "alias" ~/.bashrc
 cat ~/.bashrc | grep "^#"
 ```
 
-- Prints lines beginning with `#`.
+> Prints lines beginning with `#`.
 
 ## Filter case-insensitive `-i`
 
@@ -51,7 +51,7 @@ cat ~/.bashrc | grep "^#"
 echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -i "go"
 ```
 
-- ```text
+> ```text
   I'm Going!
   Goodbye!
   ```
@@ -62,7 +62,7 @@ echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -i "go"
 echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -i -v "go"
 ```
 
-- ```text
+> ```text
   Hello World!
   ```
 
