@@ -37,7 +37,7 @@ cat ~/.bashrc | grep "alias"
 grep "alias" ~/.bashrc
 ```
 
-## Filter pattern, with PERL flavour (`-P`)
+## Filter pattern, with PERL flavour `-P`
 
 ```sh
 cat ~/.bashrc | grep "^#"
@@ -45,7 +45,7 @@ cat ~/.bashrc | grep "^#"
 
 - Prints lines beginning with `#`.
 
-## Filter case-insensitive (`-i`)
+## Filter case-insensitive `-i`
 
 ```sh
 echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -i "go"
@@ -56,7 +56,7 @@ echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -i "go"
   Goodbye!
   ```
 
-## Exclude (`-v`)
+## Exclude `-v`
 
 ```sh
 echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -i -v "go"
