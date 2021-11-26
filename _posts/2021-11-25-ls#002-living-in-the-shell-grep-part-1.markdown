@@ -24,8 +24,8 @@ echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep "Good"
 ```
 
 > ```text
-  Goodbye!
-  ```
+> Goodbye!
+> ```
 
 ## Filter file content
 
@@ -52,9 +52,9 @@ echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -i "go"
 ```
 
 > ```text
-  I'm Going!
-  Goodbye!
-  ```
+> I'm Going!
+> Goodbye!
+> ```
 
 ## Exclude `-v`
 
@@ -63,7 +63,7 @@ echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -i -v "go"
 ```
 
 > ```text
-  Hello World!
-  ```
+> Hello World!
+> ```
 
 {% include_relative living-in-the-shell-footer.markdown %}
