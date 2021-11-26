@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell; ls (Part 1) [LS#5]"
+title: "Living in the Shell; ls [LS#5]"
 date: 2021-11-28 08:00:00 +0330
 excerpt: ""
 categories: article
