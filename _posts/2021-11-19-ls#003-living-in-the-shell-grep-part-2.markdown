@@ -53,7 +53,7 @@ cat ~/.bashrc | grep -c "alias"
 ## Print only matching substring `-o`
 
 ```sh
-echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -c "G..d"
+echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -o "G..d"
 ```
 
 > ```text
