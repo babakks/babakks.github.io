@@ -24,9 +24,9 @@ echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -n "G."
 ```
 
 > ```text
-  2:Im Going!
-  3:Goodbye!
-  ```
+> 2:Im Going!
+> 3:Goodbye!
+> ```
 
 ## Print lines around (after/before) every match `-A` `-B`
 
@@ -57,7 +57,7 @@ echo -n 'Hello World!\nI''m Going!\nGoodbye!' | grep -o "G..d"
 ```
 
 > ```text
-  Good
-  ```
+> Good
+> ```
 
 {% include_relative living-in-the-shell-footer.markdown %}
