@@ -40,7 +40,7 @@ grep "alias" ~/.bashrc
 ## Filter pattern, with PERL flavour `-P`
 
 ```sh
-cat ~/.bashrc | grep "^#"
+cat ~/.bashrc | grep -P "^#"
 ```
 
 > Prints lines beginning with `#`.
