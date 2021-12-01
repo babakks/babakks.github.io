@@ -35,7 +35,7 @@ zip x.zip ~/.bashrc ~/.profile
 zip -r x.zip ~/Documents
 ```
 
-> Without `-r` gets added to the archive.
+> Without `-r` nothing is added.
 
 ## Add all names except directories `-D`
 
