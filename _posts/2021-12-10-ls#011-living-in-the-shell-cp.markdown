@@ -54,6 +54,12 @@ cp -ru ~/.config ~/.config-last-backup
 
 > This just copies files that modified after the last copy.
 
+## Create backup for existing destination files `-b`
+
+```sh
+cp -rb ~/.config ~/.config-last-backup
+```
+
 ## Set to ask for overwriting `-i`
 
 ```sh
