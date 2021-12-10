@@ -8,6 +8,8 @@ categories: article
 author: babakks
 comments: true
 published: true
+image: "/img/regular-encounters.png"
+series: "Regular Encounters"
 ---
 
 Simply put, *Feature Flag* (FF) is a parameter that enables/disables specific features in your application. As a real-world example, a service could have a feature to cache some data to avoid making unnecessary database calls. Here, a feature flag, in its simplest form, can be a static configuration parameter, say `cache.isEnabled`, of boolean type. You can learn more about FF and types of it on Martin Fowler's invaluable [blog post][fowler-ff].

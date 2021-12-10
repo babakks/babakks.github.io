@@ -8,6 +8,8 @@ categories: article
 author: babakks
 comments: true
 published: true
+image: "/img/regular-encounters.png"
+series: "Regular Encounters"
 ---
 
 Though 99% of the time we use a text editor like `vim` or `nano`, still knowing how to do simple string manipulations via shell commands is more than necessary. The simplest use case emerges in CI/CD pipeline where you may need to replace some placeholder with a specific text (e.g., a dynamic docker image tag). 🤖
