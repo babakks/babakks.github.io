@@ -9,6 +9,8 @@ categories: article
 author: babakks
 comments: true
 published: true
+image: "/img/regular-encounters.png"
+series: "Regular Encounters"
 ---
 
 Closures could sometimes be tricky to the point that you may find out things too late/costly.

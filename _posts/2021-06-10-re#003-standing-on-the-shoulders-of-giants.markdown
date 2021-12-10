@@ -8,6 +8,8 @@ categories: article
 author: babakks
 comments: true
 published: true
+image: "/img/regular-encounters.png"
+series: "Regular Encounters"
 ---
 
 Have you ever heard words like below?
