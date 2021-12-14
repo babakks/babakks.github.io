@@ -13,7 +13,7 @@ series: "Living in the Shell"
 
 ## `curl` 🌐
 
-Makes requests in various protocols, including but not limited to HTTP/HTTPS/FTP/FTPS.
+Makes requests in various protocols, including (but not limited to) HTTP/HTTPS/FTP/FTPS.
 
 ## Make a simple `GET` request
 
