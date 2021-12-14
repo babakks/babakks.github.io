@@ -58,6 +58,6 @@ echo "HELLO THERE\nHI THERE\nGOODBYE" | sed 's/H\w*/\L&/g'
 cat some-file.txt | sed 's/.*/\U&/g'
 ```
 
-> Transforms all letters into uppercase
+> Transforms all letters into uppercase.
 
 {% include_relative living-in-the-shell-footer.markdown %}
