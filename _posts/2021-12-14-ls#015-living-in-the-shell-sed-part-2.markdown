@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Living in the Shell; sed (Part 2) [LS#15]"
-date: 2021-12-14 08:00:00 +0330
+date: 2021-12-14 22:20:00 +0330
 excerpt: ""
 categories: article
 author: babakks
