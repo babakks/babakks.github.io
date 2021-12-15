@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Living in the Shell; curl (Part 1) [LS#16]"
-date: 2021-12-15 22:00:00 +0330
+date: 2021-12-15 21:15:00 +0330
 excerpt: ""
 categories: article
 author: babakks
