@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Living in the Shell; curl (Part 2) [LS#17]"
-date: 2021-12-16 20:00:00 +0330
+title: "Living in the Shell #17; curl (HTTP/S Client) (Part 2)"
+date: 2021-12-16 22:55:00 +0330
 excerpt: ""
 categories: article
 author: babakks
