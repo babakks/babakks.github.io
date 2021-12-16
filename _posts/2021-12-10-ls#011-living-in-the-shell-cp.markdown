@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell; cp [LS#11]"
+title: "Living in the Shell #11; cp (Copy Files/Directories)"
 date: 2021-12-10 18:00:00 +0330
 excerpt: ""
 categories: article

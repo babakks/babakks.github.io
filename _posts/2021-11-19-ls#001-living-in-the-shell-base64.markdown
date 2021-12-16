@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell; Base64 [LS#1]"
+title: "Living in the Shell #1; base64"
 date: 2021-11-19 22:00:00 +0330
 excerpt: ""
 categories: article

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell; jq (JSON) [LS#4]"
+title: "Living in the Shell #4; jq (JSON)"
 date: 2021-11-27 08:00:00 +0330
 excerpt: ""
 categories: article

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell; find (Part 1) [LS#9]"
+title: "Living in the Shell #9; find (File/Directory Search) (Part 1)"
 date: 2021-12-04 22:30:00 +0330
 excerpt: ""
 categories: article
