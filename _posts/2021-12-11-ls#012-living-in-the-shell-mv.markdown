@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell; mv [LS#12]"
+title: "Living in the Shell #12; mv (Move/Rename Files/Directories)"
 date: 2021-12-11 21:00:00 +0330
 excerpt: ""
 categories: article

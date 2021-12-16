@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell; unzip [LS#8]"
+title: "Living in the Shell #8; unzip"
 date: 2021-12-03 21:00:00 +0330
 excerpt: ""
 categories: article

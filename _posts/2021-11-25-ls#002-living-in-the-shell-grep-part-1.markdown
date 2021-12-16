@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell; grep (Part 1) [LS#2]"
+title: "Living in the Shell #2; grep (Pattern Matching) (Part 1)"
 date: 2021-11-25 14:00:00 +0330
 excerpt: ""
 categories: article

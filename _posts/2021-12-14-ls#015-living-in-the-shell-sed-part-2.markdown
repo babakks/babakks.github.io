@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell; sed (Part 2) [LS#15]"
+title: "Living in the Shell #15; sed (Text Stream Editor) (Part 2)"
 date: 2021-12-14 22:20:00 +0330
 excerpt: ""
 categories: article

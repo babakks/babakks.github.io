@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell; rm [LS#13]"
+title: "Living in the Shell #13; rm (Delete Files/Directories)"
 date: 2021-12-12 08:00:00 +0330
 excerpt: ""
 categories: article
