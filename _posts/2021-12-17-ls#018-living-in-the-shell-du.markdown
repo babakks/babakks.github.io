@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Living in the Shell #18; du (Report Directory Size)"
-date: 2021-12-17 22:30:00 +0330
+date: 2021-12-17 22:15:00 +0330
 excerpt: ""
 categories: article
 author: babakks
