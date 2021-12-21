@@ -39,5 +39,6 @@ head -c 1k ~/.bashrc
 
 ```sh
 tail -c -1k ~/.bashrc
+```
 
 {% include_relative living-in-the-shell-footer.markdown %}
