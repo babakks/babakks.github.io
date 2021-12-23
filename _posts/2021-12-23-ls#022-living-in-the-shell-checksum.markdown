@@ -15,7 +15,7 @@ series: "Living in the Shell"
 
 Checks/computes MD5/SHA checksum of files.
 
-## Compute MD5 checksum
+## Compute MD5 checksum `md5sum`
 
 ```sh
 md5sum ~/.bashrc ~/.zshrc ~/.profile
@@ -27,7 +27,7 @@ md5sum ~/.bashrc ~/.zshrc ~/.profile
 > 43f7dc02e7bfb5d40703b5cb94e274ce  /home/babak/.profile
 > ```
 
-## Compute SHA1 checksum
+## Compute SHA1 checksum `shasum`
 
 ```sh
 shasum ~/.bashrc ~/.zshrc ~/.profile
