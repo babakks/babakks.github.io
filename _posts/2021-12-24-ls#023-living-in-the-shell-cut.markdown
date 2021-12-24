@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living in the Shell #23; cut (Cut Text/Fields from Text Stream)"
+title: "Living in the Shell #23; cut (Cut Text/Fields from Text Streams)"
 date: 2021-12-24 22:00:00 +0330
 excerpt: ""
 categories: article
