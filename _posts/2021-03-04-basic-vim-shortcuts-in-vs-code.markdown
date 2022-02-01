@@ -13,6 +13,10 @@ comments: true
 published: true
 ---
 
+> 🎉 This is now available as an extension, titled *Semi-Vim Shortcuts*, on VS Code marketplace ([here][extension]).
+
+[extension]: https://marketplace.visualstudio.com/items?itemName=babakks.vscode-vim-shortcuts
+
 Vim is great. Once you've mastered its brilliant way of cursor navigation and get used to some basic keyboard shortcuts, you'll uncover a significant improvement in your coding time productivity. Maybe that's a bit exaggerated, but still the effort surely pays off.
 
 However, I use VS Code in my daily work and am too satisfied with it. To name a few, simplicity, great performance, rich set of commands, diverse extensions and support for various languages are among the top revered characteristics of VS Code.
