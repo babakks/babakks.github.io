@@ -31,7 +31,7 @@ However, I use VS Code in my daily work and am too satisfied with it. To name a 
 
 Some time ago, I wondered if I can mix the merits of Vim into VS Code, so spent my time on test driving several extensions. The result was not promising. Actually, for me, the most wanted feature of Vim was its cursor navigation method but the extensions provided many more Vim-like features which necessitated more complicated user interaction. Disappointed of extensions, I set out to define my own customized keyboard shortcuts to make things work as expected. Surprisingly it worked well and got improved over time which is why I've gradually got addicted to it.
 
-In this post I'm listing my configured keyboard shortcuts, hoping you'll find them beneficial to your productivity. I'll be glad to hear your suggestions. 💚
+Now, you can enable these shortcuts on your VS Code instance by installing the [*VS Code Semi-Vim Shortcuts*][extension] extension. It works well with your existing keyboard configurations and can be disabled at any moment via the extensions side bar.  
 
 ## Shortcuts ⌨️
 
