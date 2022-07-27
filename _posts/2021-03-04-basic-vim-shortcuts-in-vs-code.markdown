@@ -13,9 +13,15 @@ comments: true
 published: true
 ---
 
-> 🎉 This is now available as an extension, titled *Semi-Vim Shortcuts*, on VS Code marketplace ([here][extension]).
+## TL;DR
+
+🎉 You can simply have a number of useful Vim-like navigation shortcuts, by installing the [*VS Code Semi-Vim Shortcuts*][extension] extension on VS Code. See the screen capture below to get a feeling of what to expect:
+
+![Basic navigations with VS Code Semi-Vim Shortcuts extension](../img/2021-03-04-basic-vim-shortcuts-in-vs-code-navigation.gif)
 
 [extension]: https://marketplace.visualstudio.com/items?itemName=babakks.vscode-vim-shortcuts
+
+## Vim
 
 Vim is great. Once you've mastered its brilliant way of cursor navigation and get used to some basic keyboard shortcuts, you'll uncover a significant improvement in your coding time productivity. Maybe that's a bit exaggerated, but still the effort surely pays off.
 
@@ -31,31 +37,45 @@ In this post I'm listing my configured keyboard shortcuts, hoping you'll find th
 
 The table below shows various navigations and their corresponding keyboard shortcut. I've listed the content to be appended to your `keyboard.json` file at the end of the post.
 
-|Action|Shortcut|New shortcut|
-|-|-|-|
-|Cursor/item left|`⬅️`|`ctrl` `cmd` `h`|
-|Cursor/item down|`⬇️`|`ctrl` `cmd` `j`|
-|Cursor/item up|`⬆️`|`ctrl` `cmd` `k`|
-|Cursor/item right|`➡️`|`ctrl` `cmd` `l`|
-|Word left|`ctrl` `⬅️`|`ctrl` `cmd` `alt` `h`|
-|Word down|`ctrl` `⬇️`|`ctrl` `cmd` `alt` `j`|
-|Word up|`ctrl` `⬆️`|`ctrl` `cmd` `alt` `k`|
-|Word right|`ctrl` `➡️`|`ctrl` `cmd` `alt` `l`|
-|Move to line beginning|`home`|`ctrl` `alt` `0`|
-|Move to line end|`end`|`ctrl` `alt` `4`|
-|Delete previous|`backspace`|`ctrl` `cmd` `space`|
-|Delete next|`del`|`ctrl` `cmd` `shift` `space`|
+| Action                          | Shortcut          | New alternative shortcut          |
+| ------------------------------- | ----------------- | --------------------------------- |
+| Cursor/item left                | `Left`            | `Ctrl`+`Cmd`+`H`                  |
+| Cursor/item down                | `Down`            | `Ctrl`+`Cmd`+`J`                  |
+| Cursor/item up                  | `Up`              | `Ctrl`+`Cmd`+`K`                  |
+| Cursor/item right               | `Right`           | `Ctrl`+`Cmd`+`L`                  |
+| Word left                       | `Ctrl`+`Left`     | `Ctrl`+`Cmd`+`Alt`+`H`            |
+| Word down                       | `Ctrl`+`Down`     | `Ctrl`+`Cmd`+`Alt`+`J`            |
+| Word up                         | `Ctrl`+`Up`       | `Ctrl`+`Cmd`+`Alt`+`K`            |
+| Word right                      | `Ctrl`+`Right`    | `Ctrl`+`Cmd`+`Alt`+`L`            |
+| Move to line beginning          | `Home`            | `Ctrl`+`Alt`+`0`                  |
+| Move to line end                | `End`             | `Ctrl`+`Alt`+`4`                  |
+| Delete previous                 | `Backspace`       | `Ctrl`+`Cmd`+`Space`              |
+| Delete next                     | `Del`             | `Ctrl`+`Cmd`+`Shift`+`Space`      |
+| Page down                       | `PageDown`        | `Ctrl`+`Cmd`+`F`                  |
+| Page down                       | `PageDown`        | `Ctrl`+`Cmd`+`D`                  |
+| Page up                         | `PageUp`          | `Ctrl`+`Cmd`+`B`                  |
+| Page up                         | `PageUp`          | `Ctrl`+`Cmd`+`U`                  |
+| Top                             | `Ctrl`+`Home`     | `Ctrl`+`Cmd`+`G` `Ctrl`+`Cmd`+`G` |
+| Bottom                          | `Ctrl`+`End`      | `Ctrl`+`Shift`+`Cmd`+`G`          |
+| Next editor                     | `Ctrl`+`PageDown` | `Ctrl`+`Cmd`+`W` `L`              |
+| Previous editor                 | `Ctrl`+`PageUp`   | `Ctrl`+`Cmd`+`W` `H`              |
+| Focus bottom group              | -                 | `Ctrl`+`Cmd`+`W` `J`              |
+| Previous editor                 | -                 | `Ctrl`+`Cmd`+`W` `K`              |
+| Next terminal                   | `Ctrl`+`PageDown` | `Ctrl`+`Cmd`+`W` `L`              |
+| Previous terminal               | `Ctrl`+`PageUp`   | `Ctrl`+`Cmd`+`W` `H`              |
+| Debug console history: Previous | `Up`              | `Ctrl`+`Cmd`+`K`                  |
+| Debug console history: Next     | `Down`            | `Ctrl`+`Cmd`+`J`                  |
 
 👍 You can also use these shortcuts on file explorer, sidebar lists/trees (e.g., find in files or source control,) auto-completion lists and breadcrumbs.
 
-👍 Hold `shift` and/or `alt` keys with these shortcuts to select text or move by word.
+👍 Hold `Shift` and/or `Alt` keys with these shortcuts to select text or move by word.
 
-👍 Hold `alt` keys with delete next/previous shortcuts to delete by word.
+👍 Hold `Alt` keys with delete next/previous shortcuts to delete by word.
 
-👍 To use shortcuts on the command palette lists, you need to first press `tab` key.
+👍 To use shortcuts on the command palette lists, you need to first press `Tab` key to focus on the list.
 
-## Get the shortcuts 
+## Manual configuration
 
-Type and run `Preferences: Show Keyboard Shortcuts (JSON)` in the command palette which opens A JSON file named `keybindings.json`. prepend the content of [this][gist] Github Gist to it, save, and you're done; this way currently defined shortcuts won't affect.
+Want to manually set the shortcuts? Just open [this][gist] Gist and follow the instructions at the top of the file.
 
 [gist]: https://gist.github.com/babakks/cc30aeee2e2342ea22cd6b76f76f65b6
