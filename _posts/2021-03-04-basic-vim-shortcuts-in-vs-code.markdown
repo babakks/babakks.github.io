@@ -17,7 +17,7 @@ published: true
 
 🎉 You can simply have a number of useful Vim-like navigation shortcuts, by installing the [*VS Code Semi-Vim Shortcuts*][extension] extension on VS Code. See the screen capture below to get a feeling of what to expect:
 
-![Basic navigations with VS Code Semi-Vim Shortcuts extension](../img/2021-03-04-basic-vim-shortcuts-in-vs-code-navigation.gif)
+![Basic navigations with VS Code Semi-Vim Shortcuts extension](/img/2021-03-04-basic-vim-shortcuts-in-vs-code-navigation.gif)
 
 [extension]: https://marketplace.visualstudio.com/items?itemName=babakks.vscode-vim-shortcuts
 
