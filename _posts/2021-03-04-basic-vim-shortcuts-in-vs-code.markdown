@@ -11,6 +11,19 @@ categories: article
 author: babakks
 comments: true
 published: true
+tags:
+    - vscode
+    - vs code
+    - vim
+    - vi
+    - keyboard
+    - shortcut
+    - vscode vi shortcuts
+    - vscode vim shortcuts
+    - vi vscode shortcuts
+    - vim vscode shortcuts
+    - productivity
+    - extension
 ---
 
 ## TL;DR
