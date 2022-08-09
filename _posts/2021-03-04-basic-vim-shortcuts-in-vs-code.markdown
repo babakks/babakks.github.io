@@ -2,9 +2,11 @@
 layout: post
 title: "Basic Vim Shortcuts in VS Code"
 date: 2021-03-04 13:00:00 +0330
-excerpt: |
-    Install the "VS Code Semi-Vim Shortcuts" extension on your VS Code instance,
-    and start using vim shortcuts in your vscode environment.
+excerpt: >-
+    Vim and VSCode are both great text editors with their unique features.
+    Although Vim's superb keyboard shortcuts are missing in VSCode, it's still
+    possible to have Vim shortcuts in VS Code. This is how to enable VSCode Vim
+    shortcuts.
 categories: article
 author: babakks
 comments: true
