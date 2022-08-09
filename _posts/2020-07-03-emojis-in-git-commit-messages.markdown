@@ -2,16 +2,26 @@
 layout: post
 title: "Emojis for Better Git Commit Messages"
 date: 2020-07-03 19:00:00 +0430
-excerpt: |
+excerpt: >-
     Using emoji (aka, emoticon or smiley) in git commit messages helps conveying your intentions in a more terse and
     effective way. I'm madly in love with emojis. These cute little digital beings not only help convey your emotions in
     chats, but do carry weights of meanings which, when faced, we all would easy grasp in a split second. Here, I'll
-    explore various emojis, by context, to help you save your time finding the best emoji that fits your commit
+    explore various emojis, by context, to help you save your time finding the best git commit emoji.
     messages.
 categories: article
 author: babakks
 comments: true
 published: true
+tags:
+    - git
+    - commit
+    - emoji
+    - smiley
+    - emoticon
+    - contextual
+    - context
+    - list
+    - table
 ---
 
 I have to confess that I'm madly in love with emojis. They're cute, little digital beings that convey your emotions or meaning far better/deeper/shorter than words. Using them in git commit messages was a truly **brilliant** idea from whom we'd never know. Speaking of commit messages, it's obvious we're not going to leverage the emotional charge of the emojis --at least for now-- but their **terseness** and excellent **readability** is their best merit we could use. Let alone their **diversity**, **wide availability**, and **text nature**.
