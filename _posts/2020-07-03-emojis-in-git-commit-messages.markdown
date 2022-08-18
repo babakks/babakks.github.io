@@ -22,7 +22,14 @@ tags:
     - context
     - list
     - table
+    - git-emoji
+    - dataset
 ---
+
+🎉 **UPDATE:** You can now access the underlying dataset of this post via [git-emoji/dataset-js][dataset-repo] repository on GitHub. It's also available as a NPM package; [`@git-emoji/dataset-js`][dataset-npm].
+
+[dataset-repo]: https://github.com/git-emoji/dataset-js
+[dataset-npm]: https://www.npmjs.com/package/@git-emoji/dataset-js
 
 I have to confess that I'm madly in love with emojis. They're cute, little digital beings that convey your emotions or meaning far better/deeper/shorter than words. Using them in git commit messages was a truly **brilliant** idea from whom we'd never know. Speaking of commit messages, it's obvious we're not going to leverage the emotional charge of the emojis --at least for now-- but their **terseness** and excellent **readability** is their best merit we could use. Let alone their **diversity**, **wide availability**, and **text nature**.
 
