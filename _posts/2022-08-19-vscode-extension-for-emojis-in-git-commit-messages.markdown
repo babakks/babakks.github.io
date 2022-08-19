@@ -2,7 +2,7 @@
 layout: post
 title: "VS Code Extension to Pick Relevant Emojis for Git Commit Messages"
 date: 2022-08-19 14:00:00 +0330
-excerpt: "Use this VS Code extension, called "Git-Emoji", to easily pick relevant emojis for your git commit messages."
+excerpt: Use this VS Code extension, called "Git-Emoji", to easily pick relevant emojis for your git commit messages.
 categories: article
 author: babakks
 comments: true
