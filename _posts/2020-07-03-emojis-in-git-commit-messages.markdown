@@ -34,7 +34,7 @@ tags:
 🎉 **UPDATE 2:** This is now available as a VS Code extension, named **Git-Emoji**. You can install it from within VS Code or via [extensions marketplace][vscode-extension]. You can also see [this][git-emoji-extension-posts] short blog post on this new extension.
 
 [vscode-extension]: https://marketplace.visualstudio.com/items?itemName=git-emoji.vscode-git-emoji
-[git-emoji-extension-posts]: /_posts/2022-08-19-vscode-extension-for-emojis-in-git-commit-messages.markdown
+[git-emoji-extension-posts]: {% post_url 2022-08-19-vscode-extension-for-emojis-in-git-commit-messages %}
 
 I have to confess that I'm madly in love with emojis. They're cute, little digital beings that convey your emotions or meaning far better/deeper/shorter than words. Using them in git commit messages was a truly **brilliant** idea from whom we'd never know. Speaking of commit messages, it's obvious we're not going to leverage the emotional charge of the emojis --at least for now-- but their **terseness** and excellent **readability** is their best merit we could use. Let alone their **diversity**, **wide availability**, and **text nature**.
 
