@@ -13,7 +13,7 @@ published: true
 
 If you're VS Code user and also a fan of emojis, this new VS Code extension might appeal to you, especially if you've read and liked [*Emojis for Better Git Commit Messages*][emojis-post] for its exhaustive table of contextual emoji data which were gathered over years. This new extension is called **Git-Emoji**. What it does is to provide you with relevant emoji suggestions to add to your git commit messages. This short screen capture would show you how this extension works:
 
-[emojis-post]: /_posts/2020-07-03-emojis-in-git-commit-messages.markdown
+[emojis-post]: {% post_url 2020-07-03-emojis-in-git-commit-messages %}
 ![How to get relevant emojis for git commit message](/img/2022-08-19-capture.gif)
 
 To install it, search for "Git-Emoji" in the extension sidebar and click on the *Install* button. Alternatively, you can also install it as follows:
