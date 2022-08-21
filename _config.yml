@@ -19,3 +19,4 @@ include:
 data_dir: _data
 disqus:
   shortname: babakks
+google_analytics: G-W6LPRLMP05
