@@ -7,9 +7,10 @@ twitter_username: babakks0
 author: babakks
 url: "https://babakks.github.io"
 baseurl: ""
-theme: minima
+remote_theme: jekyll/minima
 show_excerpts: true
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
