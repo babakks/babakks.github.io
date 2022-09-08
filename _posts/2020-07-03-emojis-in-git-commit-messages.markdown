@@ -7,7 +7,7 @@ excerpt: >-
     effective way. I'm madly in love with emojis. These cute little digital beings not only help convey your emotions in
     chats, but do carry weights of meanings which, when faced, we all would easy grasp in a split second. Here, I'll
     explore various emojis, by context, to help you save your time finding the best git commit emoji.
-    messages.
+    messages. Also, you easily use the contextual emojis in this post via the `Git-Emoji` VS Code extension.
 categories: article
 author: babakks
 comments: true
