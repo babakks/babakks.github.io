@@ -22,6 +22,10 @@ Developers can still access this data through the `ContextV1` dataset within the
 
 ## Emoji rock stars
 
+🙏 Inspired by the curated [list][parmentf] of *parmentf* on Github Gists.
+
+[parmentf]: https://gist.github.com/parmentf/035de27d6ed1dce0b36a
+
 | Emojis                                                                              | Example commit message(s)                                     |
 | ----------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | 🎉 `:tada:`                                                                          | *First commit*                                                |
