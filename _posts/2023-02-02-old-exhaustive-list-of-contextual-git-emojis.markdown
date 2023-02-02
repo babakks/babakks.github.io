@@ -20,6 +20,54 @@ Developers can still access this data through the `ContextV1` dataset within the
 
 [dataset]: https://github.com/git-emoji/dataset-js
 
+## Emoji rock stars
+
+| Emojis                                                                              | Example commit message(s)                                     |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| 🎉 `:tada:`                                                                          | *First commit*                                                |
+| 🔨 `:hammer:`                                                                        | *Update code* <br/> *Improve code*                            |
+| 📜 `:scroll:` <br/> ✏️ `:pencil:` <br/> 📚 `:books:` <br/> 📝 `:memo:` <br/> 📖 `:book:` | *Update README.md* <br/> *Add docs*                           |
+| 👕 `:tshirt:` <br/> 👔 `:necktie:`                                                    | *Apply linter* <br/> *Format code*                            |
+| ⚗️ `:alembic:` <br/> 🧪 `:test_tube:`                                                 | *Add tests* <br/> *Update unit tests*                         |
+| 👶 `:baby:`                                                                          | *Add basic implementation* <br/> *Add partial impl.*          |
+| 🏅 `:medal_sports:`                                                                  | *Finish implementation*                                       |
+| ⤴️ `:arrow_heading_up:`                                                              | *Upgrade dependency* <br/> *Upgrade version*                  |
+| ⤵️ `:arrow_heading_down:`                                                            | *Downgrade dependency* <br/> *Downgrade version*              |
+| 🎨 `:art:` <br/> 💅 `:nail_care:` <br/> 💄 `:lipstick:`                                | *Improve visuals* <br/> *Enhance UI/UX*                       |
+| ♿️ `:wheelchair:`                                                                    | *Improve accessibility features*                              |
+| ✨ `:sparkles:` <br/> 🚿 `:shower:`                                                   | *Clean code*                                                  |
+| 🔥 `:fire:` <br/> 🔫 `:gun:` <br/> ✂️ `:scissors:`                                     | *Delete directory* <br/> *Remove unnecessary files*           |
+| 💩 `:poop:` <br/> 🍝 `:spaghetti:`                                                    | *Mess up legacy code* <br/> *Apply dirty patch*               |
+| ⚡️ `:zap:`                                                                           | *Introduce breaking changes*                                  |
+| 🐛 `:bug:` <br/> 🐞 `:beetle:`                                                        | *Fix bug*                                                     |
+| 🚧 `:construction:`                                                                  | *Apply temporary patch* <br/> *Improve work in progress*      |
+| 🚑 `:ambulance:`                                                                     | *Apply urgent fix* <br/> *Fix critical bug*                   |
+| 🌙 `:crescent_moon:`                                                                 | *Update nightly builds config* <br/> *Create background jobs* |
+| 🐰 `:rabbit:`                                                                        | *Add RabbitMQ requirements*                                   |
+| 🐋 `:whale:`                                                                         | *Add Dockerfile* <br/> *Update docker-compose*                |
+| `:octocat:`                                                                         | *Add .github dir* (only on `github.com`)                      |
+| 🦊 `:fox_face:`                                                                      | *Add .gitlab dir* <br/> *Update .gitlab-ci.yml*               |
+| 🎁 `:gift:` <br/> 📦 `:package:`                                                      | *Add new dependencies* <br/> *Add new feature*                |
+| 🔔 `:bell:`                                                                          | *Add alarm/warning*                                           |
+| 🔕 `:no_bell:` <br/> 🔇 `:mute:`                                                      | *Silence alarms/warnings*                                     |
+| 🔐 `:closed_lock_with_key:` <br/> 🔒 `:lock:` <br/> 🛡 `:shield:`                      | *Improve security* <br/> *Set more permissions*               |
+| 🔓 `:unlock:` <br/> 🔑 `:key:`                                                        | *Lift permissions* <br/> *Remove restrictions*                |
+| 📁 `:file_folder:`                                                                   | *Change dir structure*                                        |
+| ⌚️ `:watch:` <br/> ⏱ `:stopwatch:`                                                   | *Add profiler* <br/> *Add performance measurements*           |
+| 📊 `:bar_chart:`                                                                     | *Improve performance*                                         |
+| 🔖 `:bookmark:`                                                                      | *Update version*                                              |
+| 🎒 `:school_satchel:` <br/> 🚀 `:rocket:`                                             | *Build and pack* <br/> *Make ready for deployment/launch*     |
+| 📈 `:chart_with_upwards_trend:`                                                      | *Improve performance*                                         |
+| 📉 `:chart_with_downwards_trend:`                                                    | *Minimize resource usage*                                     |
+| 📎 `:paperclip:`                                                                     | *Attach doc/file*                                             |
+| ✈️ `:airplane:`                                                                      | *Migrate to new interface* <br/> *Create data migration*      |
+| 🏁 `:checkered_flag:`                                                                | *Finish impl* <br/> *Meet roadmap checkpoint*                 |
+| 🎭 `:performing_arts:`                                                               | *Merge branches* <br/> *Merge two modules*                    |
+| ⚓️ `:anchor:`                                                                        | *Put TODO anchors*                                            |
+| 🚩 `:triangular_flag_on_post:`                                                       | *Meet roadmap checkpoint*                                     |
+| ©️ `:copyright:` <br/> ®️ `:registered:`                                              | *Add LICENSE file* <br/> *Update LICENSE*                     |
+
+
 ## Old Exhastive List of emojis by context (a.k.a, `ContextV1`)
 
 | Emojis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Context (verb/noun/adjective)                                                                                                                                                                                                                  |
