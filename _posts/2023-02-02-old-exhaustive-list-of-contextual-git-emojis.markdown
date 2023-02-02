@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Old Exhaustive List of Emojis and Contextual Keywords"
-date: 2023-02-02 15:00:00 +0330
+date: 2023-02-02 14:30:00 +0330
 excerpt: Old exhaustive list of emojis and contextual keywords (as of git-emoji dataset's ContextV1)
 categories: article
 author: babakks
