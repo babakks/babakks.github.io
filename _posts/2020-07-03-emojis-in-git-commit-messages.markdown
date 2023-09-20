@@ -36,6 +36,10 @@ tags:
 [vscode-extension]: https://marketplace.visualstudio.com/items?itemName=git-emoji.vscode-git-emoji
 [git-emoji-extension-posts]: {% post_url 2022-08-19-vscode-extension-for-emojis-in-git-commit-messages %}
 
+🎉 **UPDATE 3:** You can see the old **exhaustive** list of contextual emojis in this new [post][old-table].
+
+[old-table]: {% post_url 2023-02-02-old-exhaustive-list-of-contextual-git-emojis %}
+
 I have to confess that I'm madly in love with emojis. They're cute, little digital beings that convey your emotions or meaning far better/deeper/shorter than words. Using them in git commit messages was a truly **brilliant** idea from whom we'd never know. Speaking of commit messages, it's obvious we're not going to leverage the emotional charge of the emojis --at least for now-- but their **terseness** and excellent **readability** is their best merit we could use. Let alone their **diversity**, **wide availability**, and **text nature**.
 
 ## The problem with emojis
@@ -47,8 +51,6 @@ As a big fan, I use them almost everywhere I can replace them for words, though 
 More often that not I find myself trying to recall an emoji that fits best with my already written (or thought of) commit message. Not always would you find the closest emoji within a list like the one you've seen. That's when you'd rather have a subject-/context-oriented table in which you could easily find the best candidates for your intent. I'm talking about such a table:
 
 ⚠️ **This is the new version of the [old exhaustive table][old-table].**
-
-[old-table]: {% post_url 2023-02-02-old-exhaustive-list-of-contextual-git-emojis %}
 
 | Emojis                                                                                                                                                    | Context (verb/noun/adjective)                                                                                                                                                                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
