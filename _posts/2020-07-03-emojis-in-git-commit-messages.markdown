@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Emojis for Better Git Commit Messages"
+title: "Emojis for Better Git Commit Messages (aka Project Git-Emoji)"
 date: 2020-07-03 19:00:00 +0430
 excerpt: >-
-    Using emoji (aka, emoticon or smiley) in git commit messages helps conveying your intentions in a more terse and
-    effective way. I'm madly in love with emojis. These cute little digital beings not only help convey your emotions in
-    chats, but do carry weights of meanings which, when faced, we all would easy grasp in a split second. Here, I'll
-    explore various emojis, by context, to help you save your time finding the best git commit emoji.
-    messages. Also, you easily use the contextual emojis in this post via the "Git-Emoji" VS Code extension.
+    Here's how to pick best emojis for you git commit messages, as part of the Project Git-Emoji. We'll explore an
+    long list of emojis for different scenarios and various git commit messages. There's also an extension available for
+    VS Code users, named "Git-Emoji".
 categories: article
 author: babakks
 comments: true
@@ -26,19 +24,26 @@ tags:
     - dataset
 ---
 
-🎉 **UPDATE 1:** You can now access the underlying dataset of this post via [git-emoji/dataset-js][dataset-repo] repository on GitHub. It's also available as a NPM package; [`@git-emoji/dataset-js`][dataset-npm].
+> 🎉 **UPDATE 1:** You can now access the underlying dataset of this post via [git-emoji/dataset-js][dataset-repo] repository on GitHub. It's also available as a NPM package; [`@git-emoji/dataset-js`][dataset-npm].
+>
+> [dataset-repo]: https://github.com/git-emoji/dataset-js
+> [dataset-npm]: https://www.npmjs.com/package/@git-emoji/dataset-js
 
-[dataset-repo]: https://github.com/git-emoji/dataset-js
-[dataset-npm]: https://www.npmjs.com/package/@git-emoji/dataset-js
 
-🎉 **UPDATE 2:** This is now available as a VS Code extension, named **Git-Emoji**. You can install it from within VS Code or via [extensions marketplace][vscode-extension]. You can also see [this][git-emoji-extension-posts] short blog post on this new extension.
+> 🎉 **UPDATE 2:** This is now available as a VS Code extension, named **Git-Emoji**. Like the screen capture below, you can simply pick the best emojis based on the context of your commit message. You can install it from within VS Code or via [extensions marketplace][vscode-extension]. You can also see [this][git-emoji-extension-posts] short blog post on this new extension. 
+> 
+> ![Git-Emoji extension](/img/2020-07-03-emojis-in-git-commit-messages-extension-capture.gif)
+> 
+> [vscode-extension]: https://marketplace.visualstudio.com/items?itemName=git-emoji.vscode-git-emoji
+> [git-emoji-extension-posts]: {% post_url 2022-08-19-vscode-extension-for-emojis-in-git-commit-messages %}
 
-[vscode-extension]: https://marketplace.visualstudio.com/items?itemName=git-emoji.vscode-git-emoji
-[git-emoji-extension-posts]: {% post_url 2022-08-19-vscode-extension-for-emojis-in-git-commit-messages %}
+> 🎉 **UPDATE 3:** You can see the old **exhaustive** list of contextual emojis in this new [post][old-table].
+> 
+> [old-table]: {% post_url 2023-02-02-old-exhaustive-list-of-contextual-git-emojis %}
 
-🎉 **UPDATE 3:** You can see the old **exhaustive** list of contextual emojis in this new [post][old-table].
+---
 
-[old-table]: {% post_url 2023-02-02-old-exhaustive-list-of-contextual-git-emojis %}
+# Love for Emojis
 
 I have to confess that I'm madly in love with emojis. They're cute, little digital beings that convey your emotions or meaning far better/deeper/shorter than words. Using them in git commit messages was a truly **brilliant** idea from whom we'd never know. Speaking of commit messages, it's obvious we're not going to leverage the emotional charge of the emojis --at least for now-- but their **terseness** and excellent **readability** is their best merit we could use. Let alone their **diversity**, **wide availability**, and **text nature**.
 
