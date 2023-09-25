@@ -3,7 +3,7 @@ layout: post
 title: "Emojis for Better Git Commit Messages (aka Project Git-Emoji)"
 date: 2020-07-03 19:00:00 +0430
 excerpt: >-
-    Here's how to pick best emojis for you git commit messages, as part of the Project Git-Emoji. We'll explore an
+    Here's how to pick best emojis for your git commit messages, as part of the Project Git-Emoji. We'll explore a
     long list of emojis for different scenarios and various git commit messages. There's also an extension available for
     VS Code users, named "Git-Emoji".
 categories: article
