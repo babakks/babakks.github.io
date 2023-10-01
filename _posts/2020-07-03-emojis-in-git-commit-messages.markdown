@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Emojis for Better Git Commit Messages (aka Project Git-Emoji)"
+title: "Project Git-Emoji: Emojis for Better Git Commit Messages"
 date: 2020-07-03 19:00:00 +0430
 excerpt: >-
-    Here's how to pick best emojis for your git commit messages, as part of the Project Git-Emoji. We'll explore a
-    long list of emojis for different scenarios and various git commit messages. There's also an extension available for
-    VS Code users, named "Git-Emoji".
+    How to pick best emojis for git commit messages? Here is a long list of
+    emojis and a VS Code extension, aka Project Git-Emoji.
 categories: article
 author: babakks
 comments: true
@@ -14,6 +13,7 @@ tags:
     - git
     - commit
     - emoji
+    - emojis
     - smiley
     - emoticon
     - contextual
@@ -21,7 +21,11 @@ tags:
     - list
     - table
     - git-emoji
+    - git emoji
     - dataset
+    - vscode
+    - extension
+    - vs code
 ---
 
 > 🎉 **UPDATE 1:** You can now access the underlying dataset of this post via [git-emoji/dataset-js][dataset-repo] repository on GitHub. It's also available as a NPM package; [`@git-emoji/dataset-js`][dataset-npm].
@@ -43,17 +47,21 @@ tags:
 
 ---
 
-# Love for Emojis
+# What is Git-Emoji?
 
 I have to confess that I'm madly in love with emojis. They're cute, little digital beings that convey your emotions or meaning far better/deeper/shorter than words. Using them in git commit messages was a truly **brilliant** idea from whom we'd never know. Speaking of commit messages, it's obvious we're not going to leverage the emotional charge of the emojis --at least for now-- but their **terseness** and excellent **readability** is their best merit we could use. Let alone their **diversity**, **wide availability**, and **text nature**.
 
+That's all why I started the [*Git-Emoji*][git-emoji] project to promote application of emojis in software development process. As a basic must, the project aims to provide you with basic tools that developers might need to embrace the beauty of emojis in their daily experience. But it's not as simple as a list of emojis, there's still more to select a perfect matching emoji.
+
+[git-emoji]: https://github.com/git-emoji
+
 ## The problem with emojis
 
-As a big fan, I use them almost everywhere I can replace them for words, though sometimes it's a little difficult to find the right emoji. When it comes to writing git commit messages, people won't feel good for wasting 15 minutes looking for the best emoji on the context. That's one reason, I guess, that emojis are yet to grow popular. There are few cases that our exact intention easily matches with an emoji. In most cases you have to rephrase, rethink or reshape your words to find that hidden one. I get it. That's why I started to write an article on the subject to list some of my favorite emojis that you'll find extremely useful in your day-to-day experience.
+As a big fan, I use emojis almost everywhere I can replace them for words, though sometimes it's a little difficult to find the right emoji. When it comes to writing git commit messages, people won't feel good for wasting 15 minutes looking for the best emoji on the context. That's one reason, I guess, that emojis are yet to grow popular. There are few cases that our exact intention easily matches with an emoji. In most cases you have to rephrase, rethink or reshape your words to find that hidden one. I get it. That's part of the features that project Git-Emoji will bring for you, named *emojis by context*.
 
 ## Emojis by context (`ContextV2` dataset)
 
-More often that not I find myself trying to recall an emoji that fits best with my already written (or thought of) commit message. Not always would you find the closest emoji within a list like the one you've seen. That's when you'd rather have a subject-/context-oriented table in which you could easily find the best candidates for your intent. I'm talking about such a table:
+More often that not I find myself trying to recall an emoji that fits best with my already written (or thought of) commit message. Not always would you find the closest emoji within a list like the one you've seen. That's when you'd rather have a subject-/context-oriented table in which you could easily find the best candidates for your intent. If you're using VS Code, you can simply install the *Git-Emoji* extension and receive context-related emoji suggestions. But don't worry if you're using a different IDE/editor, or you don't want to install an extension, because here's an example of such a list/table:
 
 ⚠️ **This is the new version of the [old exhaustive table][old-table].**
 
@@ -169,9 +177,10 @@ More often that not I find myself trying to recall an emoji that fits best with 
 | 🔁 `:repeat:`                                                                                                                                              | enumerate<br/>enumerating<br/>enumeration<br/>for<br/>iterate<br/>iterating<br/>iteration<br/>loop<br/>loop back<br/>loop-back<br/>loopback<br/>repeat<br/>repetition<br/>repetitive<br/>while<br/>whilst                                                                                   |
 | 🚧 `:construction:`<br/>⏳ `:hourglass_flowing_sand:`                                                                                                       | block<br/>hinder<br/>pend<br/>wip<br/>work in progress<br/>work-in-progress<br/>workinprogress                                                                                                                                                                                              |
 
+## There's more
 
-## Look further
+Project *Git-Emoji* is not just about a list of emojis to pick, there's also an open-source [dataset][dataset-repo] available for anyone would need it in anyway. Also, more tools are yet to come in the near future. 
 
-See emoji [cheat sheet][cheatsheet] for a complete list of emojis that you can use on GitHub or other platforms.
+ℹ️ *If you couldn't find the emoji you were looking for, you can always consult with the emoji [cheat sheet][cheatsheet] for a complete list of emojis that you can use on GitHub or other platforms.*
 
 [cheatsheet]: https://www.webfx.com/tools/emoji-cheat-sheet/
