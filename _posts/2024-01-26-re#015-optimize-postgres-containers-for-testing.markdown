@@ -3,7 +3,7 @@ layout: post
 title: "Optimize Postgres Containers for Testing [RE#15]"
 date: 2024-01-26 00:00:00 +0000
 excerpt: |
-    
+    If you're using Postgres containers for testing, you might already be annoyed by the performance, specially if you have a lot of tests that need to communicate with a real database. Here are some small tips to get a good performance.
 categories: article
 author: babakks
 comments: true
@@ -35,11 +35,11 @@ services:
 
 The key points here are:
 
-- **Using `tmpfs`**: With [`tmpfs`][tmpfs] mounts, you can utilize memory (RAM) as the underlying filesystem storage for specific paths. Here I've used it to store Postgres data. This, of course, means there's no real persistence in-place, therefore you will lose the data if the container stops/restarts. Also, you have to be careful with the size of the data, in case it could get close to your memory limits.
+- **Using `tmpfs`**: With [`tmpfs` mounts][tmpfs], you can utilize memory (RAM) as the underlying filesystem storage for specific paths. Here I've used it to store Postgres data. This, of course, means there's no real persistence in-place, therefore you will lose the data if the container stops/restarts. Also, you have to be careful with the size of the data, in case it could get close to your memory limits.
 
 [tmpfs]: https://docs.docker.com/storage/tmpfs
 
-- **Applying `-c fsync=off -c full_page_writes=off`**: If you don't disable the [`fsync`][fsync] option, Postgres makes sure that updates are physically written to disk, which could be a great performance hit. As of official documentations, if you turn `fsync` off, you should also consider disabling `full_page_writes`.
+- **Applying `-c fsync=off -c full_page_writes=off`**: If you don't disable the [`fsync` option][fsync], Postgres makes sure that updates are physically written to disk, which could be a great performance hit. As of official documentations, if you turn `fsync` off, you should also consider disabling `full_page_writes`.
 
 [fsync]: https://www.postgresql.org/docs/current/runtime-config-wal.html
 
