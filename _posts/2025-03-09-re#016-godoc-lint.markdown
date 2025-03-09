@@ -1,0 +1,78 @@
+---
+layout: post
+title: "Godoc-Lint: a linter for Go Doc Comments (godocs) [RE#16]"
+date: 2025-03-09 12:00:00 +0000
+excerpt: |
+    Godoc-Lint is a linter for Go Doc Comments (aka, godocs) that helps keeping documentations comments in style, and developer friendly.
+categories: article
+author: babakks
+comments: true
+published: true
+image: "/img/regular-encounters.png"
+series: "Regular Encounters"
+---
+
+I was in a break between jobs when I decided it's time to tackle the idea I had for a long time; [Godoc-Lint][godoc-lint], a linter for Go Doc Comments (godocs). But before getting to Godoc-Lint, let's talk about the problem.
+
+## Godocs and perfectionism
+
+As a bit of context, Golang supports inline documentations (godocs), similar to JavaScript's JSDoc or C#'s triple-slash comments (`///`). However, it's much simpler/basic in features and structure. The thing is Golang (or `gofmt` to be more precise) does not enforce any restrictions on how to write godocs. That's why Go developers usually drift off the style, almost unknowingly. For example, they may forget to document what a package does, or what a particular function is meant to be used for. It's frustrating for the end users of their library/module to open up the browser and search the web or read the docs for their questions. Let alone the inconsistency that annoys those perfectionist maintainers of the project.
+
+To see what I'm talking about, just imagine this simple file, `foo.go`:
+
+```go
+// This package helps with a bunch of things.
+package foo
+
+// This prints a hey.
+func Foo() {
+	println("Hey")
+}
+```
+
+At first sight, the it seems nicely documented with godocs. But in terms of standards and style, both godocs are **not in a good shape**. If we run the `godoclint` CLI, we'll see why that is the case:
+
+```sh
+$ godoclint ./...
+foo.go:1:1: package godoc should start with "Package foo "
+foo.go:4:1: godoc should start with symbol name (pattern "((A|a|An|an|THE|The|the) )?%")
+```
+
+So the right use of godocs is something like this:
+
+```go
+// Package foo helps with a bunch of things.
+package foo
+
+// Foo prints a hey.
+func Foo() {
+	println("Hey")
+}
+```
+
+You'll be amazed to see how many times people are breaking the godoc standard, which is well described in this official Golang document, [*Go Doc Comments*][godoc].
+
+## Godoc-Lint
+
+[Godoc-Lint][godoc-lint] is now out to help with this issue. It comes with a number of predefined rules that aim to keep godocs consistent and in-style. To give it a try, you can download the CLI binary from the repo's [Releases][releases] page, or simply use the below `go install` command:
+
+```sh
+go install github.com/godoc-lint/godoc-lint/cmd/godoclint
+```
+
+Once installed, you can navigate into your Golang project directory, and run it like this:
+
+```sh
+godoclint ./...
+```
+
+This will run the linter on all packages in your project, with a sensible (i.e., less annoying, yet important) set of default rules. For more about the rules and configuration check out the repo's [README][readme].
+
+> ℹ️ Note that on large code bases, when running `godoclint` for the first time it might take a bit, but further runs will be much faster.
+
+[godoc]: https://go.dev/doc/comment
+[godoc-lint]: https://github.com/godoc-lint/godoc-lint
+[releases]: https://github.com/godoc-lint/godoc-lint/releases
+[readme]: https://github.com/godoc-lint/godoc-lint/blob/main/README.md
+
+{% include_relative regular-encounters-footer.markdown %}
